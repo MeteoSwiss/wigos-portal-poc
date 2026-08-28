@@ -32,3 +32,16 @@
           type: web
           name: wigos-portal-poc-catalogue
           envVarKey: RENDER_EXTERNAL_URL
+
+  - type: web
+    runtime: static
+    name: wigos-portal-poc
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+
+    envVars:
+      - key: NODE_VERSION
+        value: 22.23.2
+      - key: SKIP_INSTALL_DEPS
+        value: "true"
