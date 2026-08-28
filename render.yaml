@@ -37,7 +37,7 @@
     runtime: static
     name: wigos-portal-poc
     rootDir: frontend
-    buildCommand: corepack enable && corepack prepare pnpm@11.23.0 --activate && pnpm install --frozen-lockfile && pnpm run build
+    buildCommand: corepack enable && corepack prepare pnpm@10.34.5 --activate && pnpm install --frozen-lockfile && pnpm run build
     staticPublishPath: dist
 
     envVars:
