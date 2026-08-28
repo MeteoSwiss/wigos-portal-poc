@@ -11,18 +11,34 @@ services:
         source: /*
         destination: /index.html
     envVars:
+      - key: NODE_VERSION
+        value: 22.23.2
       - key: VITE_RECORDS_API_BASE
-        value: https://wigos-portal-poc-catalogue.onrender.com
+        fromService:
+          type: web
+          name: wigos-portal-poc-catalogue
+          envVarKey: RENDER_EXTERNAL_URL
 
   - type: web
-    runtime: docker
+    runtime: python
     name: wigos-portal-poc-catalogue
     plan: free
     region: frankfurt
-    dockerContext: .
-    dockerfilePath: ./catalogue/Dockerfile
+    buildCommand: bash scripts/render_build_catalogue.sh
+    startCommand: bash scripts/render_start_catalogue.sh
     autoDeployTrigger: commit
-    healthCheckPath: /
+    healthCheckPath: /conformance
     envVars:
+      - key: PYTHON_VERSION
+        value: 3.14.3
+      - key: PYGEOAPI_CONFIG
+        value: catalogue/pygeoapi-config.yml
+      - key: PYGEOAPI_OPENAPI
+        value: catalogue/openapi.yml
+      - key: WIGOS_CATALOGUE_DB
+        value: data/wigos-facilities.tinydb
       - key: PYGEOAPI_SERVER_URL
-        value: https://wigos-portal-poc-catalogue.onrender.com
+        fromService:
+          type: web
+          name: wigos-portal-poc-catalogue
+          envVarKey: RENDER_EXTERNAL_URL
