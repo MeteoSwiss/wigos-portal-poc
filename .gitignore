@@ -41,9 +41,8 @@ pnpm-debug.log*
 # -----------------------------------------------------------------------------
 # Synced and generated catalogue data
 # -----------------------------------------------------------------------------
-# WMDR2 examples are authoritative in wmo-im/wmdr2-devt and synchronized
-# locally by the Portal build scripts.
 data/wmdr2/
+data/records/
 
 # Generated catalogue/index artefacts.
 data/wigos-facilities.tinydb

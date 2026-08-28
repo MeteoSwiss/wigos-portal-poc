@@ -67,8 +67,12 @@
         ],
         "facilityType": "landOnIce",
         "wmoRegion": "asia",
-        "programmes": [],
-        "currentProgrammes": [],
+        "programmes": [
+          "GCWCryoNet"
+        ],
+        "currentProgrammes": [
+          "GCWCryoNet"
+        ],
         "observedProperties": [
           "224",
           "12249",
@@ -168,8 +172,14 @@
         ],
         "facilityType": "landFixed",
         "wmoRegion": "europe",
-        "programmes": [],
-        "currentProgrammes": [],
+        "programmes": [
+          "GOSGeneral",
+          "GBON"
+        ],
+        "currentProgrammes": [
+          "GOSGeneral",
+          "GBON"
+        ],
         "observedProperties": [
           "179",
           "216",
@@ -290,8 +300,13 @@
         ],
         "facilityType": "landFixed",
         "wmoRegion": "europe",
-        "programmes": [],
-        "currentProgrammes": [],
+        "programmes": [
+          "GOSGeneral",
+          "GBON"
+        ],
+        "currentProgrammes": [
+          "GBON"
+        ],
         "observedProperties": [
           "179",
           "224"
@@ -391,7 +406,10 @@
         ],
         "facilityType": "landFixed",
         "wmoRegion": "europe",
-        "programmes": [],
+        "programmes": [
+          "GOSGeneral",
+          "GBON"
+        ],
         "currentProgrammes": [],
         "observedProperties": [
           "57",
@@ -570,8 +588,24 @@
         ],
         "facilityType": "landFixed",
         "wmoRegion": "asia",
-        "programmes": [],
-        "currentProgrammes": [],
+        "programmes": [
+          "RBON",
+          "RBCN",
+          "GUAN",
+          "centennialObservingstations",
+          "RBSNt",
+          "GBON",
+          "CLIMATc",
+          "GOSGeneral"
+        ],
+        "currentProgrammes": [
+          "RBON",
+          "RBCN",
+          "GUAN",
+          "centennialObservingstations",
+          "RBSNt",
+          "GBON"
+        ],
         "observedProperties": [
           "213",
           "216",
@@ -755,7 +789,10 @@
         ],
         "facilityType": "landFixed",
         "wmoRegion": "europe",
-        "programmes": [],
+        "programmes": [
+          "GAWregional",
+          "NDACC"
+        ],
         "currentProgrammes": [],
         "observedProperties": [
           "263",
@@ -964,8 +1001,16 @@
         ],
         "facilityType": "landFixed",
         "wmoRegion": "europe",
-        "programmes": [],
-        "currentProgrammes": [],
+        "programmes": [
+          "GAWregional",
+          "NDACC",
+          "AERONET"
+        ],
+        "currentProgrammes": [
+          "GAWregional",
+          "NDACC",
+          "AERONET"
+        ],
         "observedProperties": [
           "263",
           "264",
@@ -1186,8 +1231,14 @@
         ],
         "facilityType": "landFixed",
         "wmoRegion": "africa",
-        "programmes": [],
-        "currentProgrammes": [],
+        "programmes": [
+          "GAWglobal",
+          "NOAAGML"
+        ],
+        "currentProgrammes": [
+          "GAWglobal",
+          "NOAAGML"
+        ],
         "observedProperties": [
           "192",
           "194",
@@ -1542,8 +1593,16 @@
         ],
         "facilityType": "landFixed",
         "wmoRegion": "africa",
-        "programmes": [],
-        "currentProgrammes": [],
+        "programmes": [
+          "GAWregional",
+          "SHADOZ",
+          "AERONET"
+        ],
+        "currentProgrammes": [
+          "GAWregional",
+          "SHADOZ",
+          "AERONET"
+        ],
         "observedProperties": [
           "263",
           "264",
@@ -1741,8 +1800,14 @@
         ],
         "facilityType": "landFixed",
         "wmoRegion": "europe",
-        "programmes": [],
-        "currentProgrammes": [],
+        "programmes": [
+          "GAWregional",
+          "AERONET",
+          "GALION"
+        ],
+        "currentProgrammes": [
+          "GAWregional"
+        ],
         "observedProperties": [
           "263",
           "314",
@@ -1891,8 +1956,12 @@
         ],
         "facilityType": "landOnIce",
         "wmoRegion": "europe",
-        "programmes": [],
-        "currentProgrammes": [],
+        "programmes": [
+          "nonAffiliated"
+        ],
+        "currentProgrammes": [
+          "nonAffiliated"
+        ],
         "observedProperties": [
           "12010"
         ],
@@ -2000,8 +2069,12 @@
         ],
         "facilityType": "landFixed",
         "wmoRegion": "africa",
-        "programmes": [],
-        "currentProgrammes": [],
+        "programmes": [
+          "GOSGeneral"
+        ],
+        "currentProgrammes": [
+          "GOSGeneral"
+        ],
         "observedProperties": [
           "12249",
           "210",
@@ -2138,8 +2211,12 @@
         ],
         "facilityType": "lakeRiverFixed",
         "wmoRegion": "africa",
-        "programmes": [],
-        "currentProgrammes": [],
+        "programmes": [
+          "WHYCOS"
+        ],
+        "currentProgrammes": [
+          "WHYCOS"
+        ],
         "observedProperties": [
           "12252"
         ],
@@ -2233,7 +2310,9 @@
         ],
         "facilityType": "seaFixed",
         "wmoRegion": "asia",
-        "programmes": [],
+        "programmes": [
+          "GOSGeneral"
+        ],
         "currentProgrammes": [],
         "observedProperties": [
           "95",
@@ -2351,8 +2430,14 @@
         ],
         "facilityType": "landFixed",
         "wmoRegion": "africa",
-        "programmes": [],
-        "currentProgrammes": [],
+        "programmes": [
+          "GBON",
+          "GOSGeneral"
+        ],
+        "currentProgrammes": [
+          "GBON",
+          "GOSGeneral"
+        ],
         "observedProperties": [
           "210",
           "216",
@@ -2481,8 +2566,14 @@
         ],
         "facilityType": "landOnIce",
         "wmoRegion": "antarctica",
-        "programmes": [],
-        "currentProgrammes": [],
+        "programmes": [
+          "nonAffiliated",
+          "GOSGeneral"
+        ],
+        "currentProgrammes": [
+          "nonAffiliated",
+          "GOSGeneral"
+        ],
         "observedProperties": [
           "216",
           "224",
@@ -2604,8 +2695,12 @@
         ],
         "facilityType": "underwaterFixed",
         "wmoRegion": "europe",
-        "programmes": [],
-        "currentProgrammes": [],
+        "programmes": [
+          "WHYCOS"
+        ],
+        "currentProgrammes": [
+          "WHYCOS"
+        ],
         "observedProperties": [
           "166"
         ],
@@ -2728,8 +2823,14 @@
         ],
         "facilityType": "landFixed",
         "wmoRegion": "europe",
-        "programmes": [],
-        "currentProgrammes": [],
+        "programmes": [
+          "nonAffiliated",
+          "GCWCryoNet"
+        ],
+        "currentProgrammes": [
+          "nonAffiliated",
+          "GCWCryoNet"
+        ],
         "observedProperties": [
           "210",
           "216",
@@ -2915,8 +3016,14 @@
         ],
         "facilityType": "landOnIce",
         "wmoRegion": "antarctica",
-        "programmes": [],
-        "currentProgrammes": [],
+        "programmes": [
+          "RBON",
+          "GBON"
+        ],
+        "currentProgrammes": [
+          "RBON",
+          "GBON"
+        ],
         "observedProperties": [
           "216",
           "224",
