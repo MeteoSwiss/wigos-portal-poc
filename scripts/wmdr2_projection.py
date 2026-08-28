@@ -239,12 +239,26 @@ def _observing_procedures(observation: dict[str, Any]) -> list[dict[str, Any]]:
 
 
 def _programme_values(value: Any) -> list[Any]:
+    """Extract programme identifiers from current and legacy WMDR2 shapes.
+
+    WMDR2 uses the plural ``programAffiliations`` collection in current
+    ObservationSeries records.  Older converter outputs used singular
+    ``programAffiliation`` wrappers.  The catalogue projector accepts both
+    during the transition, but emits one flat discovery array.
+    """
     result: list[Any] = []
     for item in listify(value):
         if isinstance(item, dict):
-            for key in ("programAffiliation", "programme", "program", "value"):
+            for key in (
+                "programAffiliations",
+                "programAffiliation",
+                "programmes",
+                "programme",
+                "program",
+                "value",
+            ):
                 if key in item:
-                    result.extend(values_of(item[key]))
+                    result.extend(_programme_values(item[key]))
                     break
         else:
             result.extend(values_of(item))
@@ -256,26 +270,36 @@ def _facility_programmes(document: dict[str, Any], evaluation_date: date) -> tup
     all_programmes: list[Any] = []
     current: list[Any] = []
 
-    temporal = root.get("temporalProgramAffiliation")
+    temporal = root.get("temporalProgramAffiliations") or root.get("temporalProgramAffiliation")
     if isinstance(temporal, dict):
-        programmes = values_of(temporal.get("programAffiliation"))
+        programmes = _programme_values(
+            temporal.get("programAffiliations")
+            or temporal.get("programAffiliation")
+            or temporal.get("value")
+        )
         dates = listify(temporal.get("dates"))
         all_programmes.extend(programmes)
         # Legacy temporal arrays only provide starts. Treat the latest declaration of each
         # programme as current unless a newer WMDR2 structure supplies an explicit interval.
         current.extend(programmes)
 
-    historical = root.get("historicalProgramAffiliation")
+    historical = root.get("historicalProgramAffiliations") or root.get("historicalProgramAffiliation")
     for item in listify(historical):
         if not isinstance(item, dict):
             all_programmes.extend(values_of(item))
             continue
-        vals = _programme_values(item.get("programAffiliation") or item.get("programme") or item.get("value"))
+        vals = _programme_values(
+            item.get("programAffiliations")
+            or item.get("programAffiliation")
+            or item.get("programmes")
+            or item.get("programme")
+            or item.get("value")
+        )
         all_programmes.extend(vals)
         if is_current(item.get("time"), evaluation_date):
             current.extend(vals)
 
-    direct = root.get("programAffiliation") or root.get("programmes")
+    direct = root.get("programAffiliations") or root.get("programAffiliation") or root.get("programmes")
     direct_values = _programme_values(direct)
     all_programmes.extend(direct_values)
     current.extend(direct_values)
@@ -411,7 +435,11 @@ def project_record(source: SourceRecord, evaluation_date: date | None = None) ->
         if geometry is not None:
             observed_geometries.append(geometry)
 
-        obs_programmes = _programme_values(observation.get("programAffiliation") or observation.get("programmes"))
+        obs_programmes = _programme_values(
+            observation.get("programAffiliations")
+            or observation.get("programAffiliation")
+            or observation.get("programmes")
+        )
         observation_programmes.extend(obs_programmes)
         configs = _configurations(observation, deployment_index)
         current_configs = [cfg for cfg in configs if is_current(cfg.get("time"), evaluation_date)]

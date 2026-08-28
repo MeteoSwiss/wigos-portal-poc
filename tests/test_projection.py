@@ -66,6 +66,36 @@ class ProjectionTests(unittest.TestCase):
         self.assertEqual(props["currentObservationOperatingStatuses"], ["operational"])
         self.assertTrue(any("non-URI" in warning for warning in warnings))
 
+    def test_projection_current_plural_program_affiliations(self):
+        source = self.fixture("20260828_0-20008-0-NRB.json")
+        props = source.document["properties"]
+        props.pop("temporalProgramAffiliation", None)
+        props["observations"] = [{
+            "id": "observation:current",
+            "observedVariable": 369,
+            "programAffiliations": [
+                "http://codes.wmo.int/wmdr/ProgramAffiliation/GAW"
+            ],
+            "observingConfigurations": [{
+                "time": {"interval": ["2025-01-01", ".."]}
+            }],
+        }]
+        props["deployments"] = []
+
+        record, _ = project_record(source, date(2026, 8, 28))
+        self.assertEqual(
+            record["properties"]["programmes"],
+            ["http://codes.wmo.int/wmdr/ProgramAffiliation/GAW"],
+        )
+        self.assertEqual(
+            record["properties"]["currentProgrammes"],
+            ["http://codes.wmo.int/wmdr/ProgramAffiliation/GAW"],
+        )
+
+    def test_projection_legacy_singular_program_affiliation_still_supported(self):
+        record, _ = project_record(self.fixture(), date(2026, 8, 28))
+        self.assertEqual(record["properties"]["currentProgrammes"], ["GAWregional"])
+
     def test_duplicate_resolution_uses_updated_date(self):
         older = self.fixture("20240101_0-20008-0-NRB.json")
         older.document["properties"]["updated"] = "2024-01-01T00:00:00Z"
