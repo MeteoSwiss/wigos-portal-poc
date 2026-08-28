@@ -10,7 +10,22 @@ proj4.defs('EPSG:3031', '+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +k=1 +x_0=0
 register(proj4);
 
 const moll = getProjection('ESRI:54009');
-if (moll) moll.setExtent([-18040095.7, -9020047.8, 18040095.7, 9020047.8]);
+if (moll) {
+  moll.setExtent([-18040095.7, -9020047.8, 18040095.7, 9020047.8]);
+  moll.setWorldExtent([-180, -90, 180, 90]);
+}
+
+const arctic = getProjection('EPSG:3995');
+if (arctic) {
+  arctic.setExtent([-5200000, -5200000, 5200000, 5200000]);
+  arctic.setWorldExtent([-180, 15, 180, 90]);
+}
+
+const antarctic = getProjection('EPSG:3031');
+if (antarctic) {
+  antarctic.setExtent([-5200000, -5200000, 5200000, 5200000]);
+  antarctic.setWorldExtent([-180, -90, 180, -15]);
+}
 
 export const projectionLabels: Record<PortalProjection, string> = {
   'ESRI:54009': 'Global',

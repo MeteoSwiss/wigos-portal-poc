@@ -1,0 +1,22 @@
+/* Projection-neutral vector basemap */
+.map-wrap {
+  background: #dbe8ed;
+}
+
+.map-attribution {
+  position: absolute;
+  z-index: 5;
+  right: 8px;
+  bottom: 7px;
+  padding: 3px 6px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, .78);
+  color: #53656d;
+  font-size: .68rem;
+  line-height: 1.2;
+  pointer-events: none;
+}
+
+.map-basemap-error {
+  color: #8c2f23;
+}
