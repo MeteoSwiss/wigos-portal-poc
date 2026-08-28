@@ -1,0 +1,189 @@
+{
+  "type": "Feature",
+  "id": "0-756-1-387493",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.946457,
+      46.752729,
+      2394
+    ]
+  },
+  "time": {
+    "interval": [
+      "2002-10-01",
+      ".."
+    ],
+    "resolution": "P1D"
+  },
+  "properties": {
+    "type": "wigosFacility",
+    "title": "Flüela permafrost",
+    "description": "The Flüela station is part of the Swiss Permafrost Monitoring Network (PERMOS; www.permos.ch). The station is important to monitor and analyse the evolution of ground temperature, permafrost thickness, and the degradation of ground ice in talus deposits, which are important forms of debris storage in mountain environments and can cause mass movements, subsidence or instability of mountain infrastructure. It is the first permafrost research site of the Swiss Alps (Haeberli 1975). Two boreholes were drilled in 2002, instrumented with thermistor chains, one being still in use with ground temperatures measured down to 25 m. The station also delivers data to the Swiss Inter cantonal Measurement and Information System (IMIS) network used by the Swiss Avalanche Warning Service WSL/SLF (https://whiterisk.ch/fr/conditions/measurements/station/IMIS/FLU2). _ Additional cryosphere measurements: - Snow (gentle grassy slope): Snow surface temperature Snow temperatures at 25, 50, and 100 cm above ground (from 2003 to 2020) - Permafrost (talus slope): Daily photographs of site and regular high resolution aerial photographs; Electrical Resistance Tomography (ERT) and seismic measurements were done in 1975 and from 2009 to 2012. _",
+    "externalIds": [
+      {
+        "scheme": "WMO:WIGOS",
+        "value": "0-756-1-387493"
+      }
+    ],
+    "contacts": [
+      {
+        "identifier": "contact:marty@slf.ch",
+        "name": "Marty,Christoph,Dr",
+        "organization": "WSL Institute for Snow and Avalanche Research SLF",
+        "emails": [
+          {
+            "value": "marty@slf.ch"
+          }
+        ],
+        "addresses": [
+          {
+            "city": "Davos Dorf",
+            "country": "CHE"
+          }
+        ]
+      },
+      {
+        "identifier": "contact:oscar@wmo.int",
+        "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+        "emails": [
+          {
+            "value": "oscar@wmo.int"
+          },
+          {
+            "value": "https://oscar.wmo.int/surface/#/feedback"
+          }
+        ],
+        "links": [
+          {
+            "href": "https://oscar.wmo.int/surface",
+            "rel": "about",
+            "type": "text/html"
+          }
+        ]
+      },
+      {
+        "identifier": "contact:phillips@slf.ch",
+        "name": "Phillips,Marcia,Dr",
+        "organization": "WSL Institute for Snow and Avalanche Research SLF",
+        "emails": [
+          {
+            "value": "phillips@slf.ch"
+          }
+        ],
+        "addresses": [
+          {
+            "city": "Davos Dorf",
+            "country": "CHE"
+          }
+        ]
+      }
+    ],
+    "facilityType": "landFixed",
+    "wmoRegion": "europe",
+    "programmes": [],
+    "currentProgrammes": [],
+    "observedProperties": [
+      "210",
+      "216",
+      "224",
+      "12249",
+      "389",
+      "566",
+      "567",
+      "573",
+      "575",
+      "629",
+      "12005",
+      "12006",
+      "12014",
+      "12015",
+      "12283"
+    ],
+    "currentObservedProperties": [
+      "210",
+      "216",
+      "224",
+      "12249",
+      "566",
+      "567",
+      "573",
+      "575",
+      "629",
+      "12005",
+      "12006",
+      "12014",
+      "12015",
+      "12283"
+    ],
+    "observedGeometries": [
+      "point",
+      "verticalProfile"
+    ],
+    "observingMethods": [
+      "204",
+      "inapplicable",
+      "188",
+      "250",
+      "265",
+      "266",
+      "260",
+      "63"
+    ],
+    "currentObservingMethods": [
+      "204",
+      "inapplicable",
+      "188",
+      "250",
+      "265",
+      "266",
+      "260",
+      "63"
+    ],
+    "instrumentManufacturers": [
+      "Campbell Scientific",
+      "Vaisala Oyj",
+      "Kipp&Zonen",
+      "RM Young"
+    ],
+    "currentInstrumentManufacturers": [
+      "Campbell Scientific",
+      "Vaisala Oyj",
+      "Kipp&Zonen",
+      "RM Young"
+    ],
+    "instrumentModels": [
+      "ARG100",
+      "VAISALA PTB110",
+      "107 Temperature probe",
+      "CNR 4",
+      "Wind Monitor 05103"
+    ],
+    "currentInstrumentModels": [
+      "ARG100",
+      "VAISALA PTB110",
+      "CNR 4",
+      "Wind Monitor 05103"
+    ],
+    "currentObservationOperatingStatuses": [
+      "operational"
+    ],
+    "organizations": [
+      "WSL Institute for Snow and Avalanche Research SLF",
+      "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+    ],
+    "observationSeriesCount": 17,
+    "currentObservationSeriesCount": 15,
+    "mobile": false,
+    "sourceFile": "20250728_0-756-1-387493.json",
+    "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20250728_0-756-1-387493.json"
+  },
+  "links": [
+    {
+      "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20250728_0-756-1-387493.json",
+      "rel": "canonical",
+      "type": "application/geo+json",
+      "title": "Canonical WMDR2 JSON"
+    }
+  ]
+}

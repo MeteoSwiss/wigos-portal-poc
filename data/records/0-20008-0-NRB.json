@@ -1,0 +1,296 @@
+{
+  "type": "Feature",
+  "id": "0-20008-0-NRB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      36.75919,
+      -1.30169,
+      1795
+    ]
+  },
+  "time": {
+    "interval": [
+      "1996-01-01",
+      ".."
+    ],
+    "resolution": "P1D"
+  },
+  "properties": {
+    "type": "wigosFacility",
+    "title": "Nairobi",
+    "description": "The station is located at 01° 18'S 36° 45' E at an altitude of 1795m and is within the compound of the Kenya Meteorological Department headquarters at Dagoretti Corner, Nairobi.",
+    "externalIds": [
+      {
+        "scheme": "WMO:WIGOS",
+        "value": "0-20008-0-NRB"
+      }
+    ],
+    "contacts": [
+      {
+        "identifier": "contact:ckennethkibaara@yahoo.com",
+        "name": "chabari,Kenneth,Mr",
+        "organization": "Kenyan Meteorological Department",
+        "emails": [
+          {
+            "value": "ckennethkibaara@yahoo.com"
+          }
+        ],
+        "addresses": [
+          {
+            "city": "nairobi",
+            "country": "KEN"
+          }
+        ]
+      },
+      {
+        "identifier": "contact:gonzague.romanens@meteoswiss.ch",
+        "name": "Romanens,Gonzague,Mr",
+        "organization": "Federal Office of Meteorology and Climatology MeteoSwiss",
+        "emails": [
+          {
+            "value": "gonzague.romanens@meteoswiss.ch"
+          }
+        ],
+        "addresses": [
+          {
+            "city": "Payerne",
+            "country": "CHE"
+          }
+        ]
+      },
+      {
+        "identifier": "contact:joerg.klausen@meteoswiss.ch",
+        "name": "Klausen,Jörg,Dr.",
+        "organization": "Federal Office of Meteorology and Climatology MeteoSwiss",
+        "emails": [
+          {
+            "value": "joerg.klausen@meteoswiss.ch"
+          }
+        ],
+        "phones": [
+          {
+            "value": "+41584609223"
+          }
+        ],
+        "addresses": [
+          {
+            "deliveryPoint": [
+              "Federal Department of Home Affairs FDHA Federal Office of Meteorology and Climatology MeteoSwiss Measurements and Data Operation Center 1 (OPC 1) P.O. Box 257"
+            ],
+            "city": "Zürich-Flughafen",
+            "postalCode": "CH-8058",
+            "country": "CHE"
+          }
+        ]
+      },
+      {
+        "identifier": "contact:jokimi@yahoo.com",
+        "name": "Mitei,Johana",
+        "organization": "Kenyan Meteorological Department",
+        "emails": [
+          {
+            "value": "jokimi@yahoo.com"
+          }
+        ],
+        "addresses": [
+          {
+            "city": "Nairobi",
+            "country": "KEN"
+          }
+        ]
+      },
+      {
+        "identifier": "contact:kmurageh@yahoo.co.uk",
+        "name": "Murageh,Josiah Kariuki",
+        "organization": "Kenyan Meteorological Department",
+        "emails": [
+          {
+            "value": "kmurageh@yahoo.co.uk"
+          }
+        ],
+        "phones": [
+          {
+            "value": "+254734294782"
+          },
+          {
+            "value": "+254203867880"
+          }
+        ],
+        "addresses": [
+          {
+            "deliveryPoint": [
+              "Kenya Meteorological Department Dagoretti Corner P.O. Box 30259"
+            ],
+            "city": "Nairobi",
+            "postalCode": "00100",
+            "country": "KEN"
+          }
+        ]
+      },
+      {
+        "identifier": "contact:nguyo2000@yahoo.com",
+        "name": "Nguyo,John Kaniaru,Mr.",
+        "organization": "Kenyan Meteorological Department",
+        "emails": [
+          {
+            "value": "nguyo2000@yahoo.com"
+          }
+        ],
+        "addresses": [
+          {
+            "deliveryPoint": [
+              "Kenya Meteorological Department"
+            ],
+            "country": "KEN"
+          }
+        ]
+      },
+      {
+        "identifier": "contact:oscar@wmo.int",
+        "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+        "emails": [
+          {
+            "value": "oscar@wmo.int"
+          },
+          {
+            "value": "https://oscar.wmo.int/surface/#/feedback"
+          }
+        ],
+        "links": [
+          {
+            "href": "https://oscar.wmo.int/surface",
+            "rel": "about",
+            "type": "text/html"
+          }
+        ]
+      },
+      {
+        "identifier": "contact:syprosenyadida1@gmail.com",
+        "name": "Nyandida,Syprose,Mrs",
+        "organization": "Kenyan Meteorological Department",
+        "emails": [
+          {
+            "value": "syprosenyadida1@gmail.com"
+          },
+          {
+            "value": "sawuor@meteo.go.ke"
+          }
+        ],
+        "phones": [
+          {
+            "value": "+254722406492"
+          }
+        ],
+        "addresses": [
+          {
+            "deliveryPoint": [
+              "P.O BOX 30259"
+            ],
+            "city": "Nairobi",
+            "postalCode": "00100",
+            "country": "KEN"
+          }
+        ]
+      },
+      {
+        "identifier": "contact:waweru_k@yahoo.com",
+        "name": "Waweru,Amos,Mr",
+        "organization": "Kenyan Meteorological Department",
+        "emails": [
+          {
+            "value": "waweru_k@yahoo.com"
+          },
+          {
+            "value": "amoskamau1969@gmail.com"
+          }
+        ],
+        "phones": [
+          {
+            "value": "254723521586"
+          }
+        ],
+        "addresses": [
+          {
+            "deliveryPoint": [
+              "Kenya Meteorological Department 30259 Nairobi Kenya"
+            ],
+            "city": "Nairobi",
+            "postalCode": "00100",
+            "country": "KEN"
+          }
+        ]
+      }
+    ],
+    "facilityType": "landFixed",
+    "wmoRegion": "africa",
+    "programmes": [],
+    "currentProgrammes": [],
+    "observedProperties": [
+      "263",
+      "264",
+      "325",
+      "369",
+      "573"
+    ],
+    "currentObservedProperties": [
+      "263",
+      "325",
+      "369"
+    ],
+    "observedGeometries": [
+      "totalColumn",
+      "verticalProfile",
+      "point"
+    ],
+    "observingMethods": [
+      "106",
+      "107",
+      "244",
+      "240"
+    ],
+    "currentObservingMethods": [
+      "244",
+      "240"
+    ],
+    "instrumentManufacturers": [
+      "Kipp&Zonen",
+      "R&J Beck London",
+      "CIMEL"
+    ],
+    "currentInstrumentManufacturers": [
+      "Kipp&Zonen",
+      "CIMEL"
+    ],
+    "instrumentModels": [
+      "Brewer MkIII",
+      "Dobson",
+      "CE318TS9 (Sun Photometer)"
+    ],
+    "currentInstrumentModels": [
+      "Brewer MkIII",
+      "CE318TS9 (Sun Photometer)"
+    ],
+    "currentObservationOperatingStatuses": [
+      "operational"
+    ],
+    "organizations": [
+      "Kenyan Meteorological Department",
+      "Federal Office of Meteorology and Climatology MeteoSwiss",
+      "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+    ],
+    "observationSeriesCount": 10,
+    "currentObservationSeriesCount": 3,
+    "mobile": false,
+    "sourceFile": "20250504_0-20008-0-NRB.json",
+    "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20250504_0-20008-0-NRB.json"
+  },
+  "links": [
+    {
+      "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20250504_0-20008-0-NRB.json",
+      "rel": "canonical",
+      "type": "application/geo+json",
+      "title": "Canonical WMDR2 JSON"
+    }
+  ]
+}

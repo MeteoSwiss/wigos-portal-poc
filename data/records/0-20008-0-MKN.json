@@ -1,0 +1,280 @@
+{
+  "type": "Feature",
+  "id": "0-20008-0-MKN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      37.2971992493,
+      -0.0621999986,
+      3678
+    ]
+  },
+  "time": {
+    "interval": [
+      "1999-01-01",
+      ".."
+    ],
+    "resolution": "P1D"
+  },
+  "properties": {
+    "type": "wigosFacility",
+    "title": "Mt. Kenya",
+    "description": "The station is situated above Moses Camp on the northern upper slopes of Mt. Kenya in a wildlife preserve above the tree line and provides measurements of the tropical mid-troposphere as well as air from the lower humid boundary layer. Access is along Sirimon Route, a distance of 21km from the Nanyuki-Timau main road. The turn-off is about 16km from Nanyuki. A new settlement has been created in the former forest land after the turn-off. The asphalt / concrete road leads up to Old Moses camp, beyond which a rugged footpath leads to the station. The station itself consists of 2 cargo containers with expansions and sanitary facilities on site. One of the containers host the instrument racks.",
+    "externalIds": [
+      {
+        "scheme": "WMO:WIGOS",
+        "value": "0-20008-0-MKN"
+      }
+    ],
+    "contacts": [
+      {
+        "identifier": "contact:colnex2004@yahoo.co.uk",
+        "name": "Okuku,Constance,Mr.",
+        "organization": "Kenyan Meteorological Department",
+        "emails": [
+          {
+            "value": "colnex2004@yahoo.co.uk"
+          }
+        ],
+        "phones": [
+          {
+            "value": "+25420386780"
+          }
+        ],
+        "addresses": [
+          {
+            "deliveryPoint": [
+              "Kenya Meteorological Department Mt Kenya GAW station Kenyatta"
+            ],
+            "city": "Nairobi",
+            "postalCode": "30259-00100",
+            "country": "KEN"
+          }
+        ]
+      },
+      {
+        "identifier": "contact:joerg.klausen@meteoswiss.ch",
+        "name": "Klausen,Jörg,Dr.",
+        "organization": "Federal Office of Meteorology and Climatology MeteoSwiss",
+        "emails": [
+          {
+            "value": "joerg.klausen@meteoswiss.ch"
+          }
+        ],
+        "phones": [
+          {
+            "value": "+41584609223"
+          }
+        ],
+        "addresses": [
+          {
+            "deliveryPoint": [
+              "Federal Department of Home Affairs FDHA Federal Office of Meteorology and Climatology MeteoSwiss Measurements and Data Operation Center 1 (OPC 1) P.O. Box 257"
+            ],
+            "city": "Zürich-Flughafen",
+            "postalCode": "CH-8058",
+            "country": "CHE"
+          }
+        ]
+      },
+      {
+        "identifier": "contact:kk_thiongo@yahoo.com",
+        "name": "Thiong'o,Kennedy K.,Mr.",
+        "organization": "Kenyan Meteorological Department",
+        "emails": [
+          {
+            "value": "kk_thiongo@yahoo.com"
+          }
+        ],
+        "phones": [
+          {
+            "value": "+254722267499"
+          }
+        ],
+        "addresses": [
+          {
+            "deliveryPoint": [
+              "Kenya Meteorological Department Dagoretti Corner, Ngong Road P.O. Box 30259"
+            ],
+            "city": "Nairobi",
+            "country": "KEN"
+          }
+        ]
+      },
+      {
+        "identifier": "contact:martin.steinbacher@empa.ch",
+        "name": "Steinbacher,Martin,Dr.",
+        "organization": "Empa Dübendorf, Laboratory for Air Pollution and Environmental Technology",
+        "emails": [
+          {
+            "value": "martin.steinbacher@empa.ch"
+          }
+        ],
+        "phones": [
+          {
+            "value": "+41587654048"
+          }
+        ],
+        "addresses": [
+          {
+            "deliveryPoint": [
+              "Empa Ueberlandstrasse 129"
+            ],
+            "city": "Dübendorf",
+            "postalCode": "8600",
+            "country": "CHE"
+          }
+        ]
+      },
+      {
+        "identifier": "contact:oscar@wmo.int",
+        "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+        "emails": [
+          {
+            "value": "oscar@wmo.int"
+          },
+          {
+            "value": "https://oscar.wmo.int/surface/#/feedback"
+          }
+        ],
+        "links": [
+          {
+            "href": "https://oscar.wmo.int/surface",
+            "rel": "about",
+            "type": "text/html"
+          }
+        ]
+      }
+    ],
+    "facilityType": "landFixed",
+    "wmoRegion": "africa",
+    "programmes": [],
+    "currentProgrammes": [],
+    "observedProperties": [
+      "192",
+      "194",
+      "195",
+      "196",
+      "201",
+      "203",
+      "205",
+      "216",
+      "224",
+      "248",
+      "12249",
+      "262",
+      "284",
+      "317",
+      "323",
+      "369",
+      "437",
+      "445",
+      "497",
+      "499",
+      "501",
+      "502",
+      "571",
+      "573",
+      "12005",
+      "12006"
+    ],
+    "currentObservedProperties": [
+      "201",
+      "203",
+      "205",
+      "216",
+      "224",
+      "248",
+      "12249",
+      "284",
+      "317",
+      "323",
+      "369",
+      "12005",
+      "12006"
+    ],
+    "observedGeometries": [
+      "point",
+      "line"
+    ],
+    "observingMethods": [
+      "301",
+      "317",
+      "221",
+      "120",
+      "73",
+      "188",
+      "201",
+      "247",
+      "254",
+      "220",
+      "230",
+      "240",
+      "60",
+      "215"
+    ],
+    "currentObservingMethods": [
+      "120",
+      "73",
+      "188",
+      "201",
+      "247",
+      "254",
+      "220",
+      "230",
+      "240",
+      "215"
+    ],
+    "instrumentManufacturers": [
+      "unknown",
+      "G. Lufft GmbH",
+      "Aerosol Magee Scientific",
+      "Acoem Ecotech",
+      "VAISALA"
+    ],
+    "currentInstrumentManufacturers": [
+      "unknown",
+      "G. Lufft GmbH",
+      "Aerosol Magee Scientific",
+      "Acoem Ecotech"
+    ],
+    "instrumentModels": [
+      "unknown",
+      "WS700-UMB Smart Weather Sensor",
+      "WS600-UMB",
+      "AE33 Aethalometer",
+      "NE-300 Integrating Nephelometer",
+      "VAISALA_ULTRASONIC WINDSENSOR"
+    ],
+    "currentInstrumentModels": [
+      "unknown",
+      "WS700-UMB Smart Weather Sensor",
+      "AE33 Aethalometer",
+      "NE-300 Integrating Nephelometer",
+      "WS600-UMB"
+    ],
+    "currentObservationOperatingStatuses": [
+      "operational",
+      "inactive"
+    ],
+    "organizations": [
+      "Kenyan Meteorological Department",
+      "Federal Office of Meteorology and Climatology MeteoSwiss",
+      "Empa Dübendorf, Laboratory for Air Pollution and Environmental Technology",
+      "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+    ],
+    "observationSeriesCount": 32,
+    "currentObservationSeriesCount": 14,
+    "mobile": false,
+    "sourceFile": "20251001_0-20008-0-MKN.json",
+    "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20251001_0-20008-0-MKN.json"
+  },
+  "links": [
+    {
+      "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20251001_0-20008-0-MKN.json",
+      "rel": "canonical",
+      "type": "application/geo+json",
+      "title": "Canonical WMDR2 JSON"
+    }
+  ]
+}

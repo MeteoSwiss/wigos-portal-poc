@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "id": "0-404-800-4AA01",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      37.06812,
+      -0.36172,
+      1813
+    ]
+  },
+  "time": {
+    "interval": [
+      "1947-09-01",
+      ".."
+    ],
+    "resolution": "P1D"
+  },
+  "properties": {
+    "type": "wigosFacility",
+    "title": "Sagana",
+    "externalIds": [
+      {
+        "scheme": "WMO:WIGOS",
+        "value": "0-404-800-4AA01"
+      }
+    ],
+    "contacts": [
+      {
+        "identifier": "contact:jtmuiruri@gmail.com",
+        "name": "MUIRURI,JOHN,Mr",
+        "organization": "KENYA METEOROLOGICAL DEPARTMENT",
+        "emails": [
+          {
+            "value": "jtmuiruri@gmail.com"
+          }
+        ],
+        "phones": [
+          {
+            "value": "0722442639"
+          }
+        ],
+        "addresses": [
+          {
+            "deliveryPoint": [
+              "P.O BOX 30259"
+            ],
+            "city": "NAIROBI",
+            "postalCode": "00100",
+            "country": "KEN"
+          }
+        ]
+      },
+      {
+        "identifier": "contact:oscar@wmo.int",
+        "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+        "emails": [
+          {
+            "value": "oscar@wmo.int"
+          },
+          {
+            "value": "https://oscar.wmo.int/surface/#/feedback"
+          }
+        ],
+        "links": [
+          {
+            "href": "https://oscar.wmo.int/surface",
+            "rel": "about",
+            "type": "text/html"
+          }
+        ]
+      }
+    ],
+    "facilityType": "lakeRiverFixed",
+    "wmoRegion": "africa",
+    "programmes": [],
+    "currentProgrammes": [],
+    "observedProperties": [
+      "12252"
+    ],
+    "currentObservedProperties": [
+      "12252"
+    ],
+    "observedGeometries": [
+      "verticalProfile"
+    ],
+    "observingMethods": [
+      "356"
+    ],
+    "currentObservingMethods": [
+      "356"
+    ],
+    "instrumentManufacturers": [],
+    "currentInstrumentManufacturers": [],
+    "instrumentModels": [],
+    "currentInstrumentModels": [],
+    "currentObservationOperatingStatuses": [],
+    "organizations": [
+      "KENYA METEOROLOGICAL DEPARTMENT",
+      "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+    ],
+    "observationSeriesCount": 1,
+    "currentObservationSeriesCount": 1,
+    "mobile": false,
+    "sourceFile": "20250314_0-404-800-4AA01.json",
+    "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20250314_0-404-800-4AA01.json"
+  },
+  "links": [
+    {
+      "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20250314_0-404-800-4AA01.json",
+      "rel": "canonical",
+      "type": "application/geo+json",
+      "title": "Canonical WMDR2 JSON"
+    }
+  ]
+}

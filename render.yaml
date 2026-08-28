@@ -1,0 +1,28 @@
+services:
+  - type: web
+    runtime: static
+    name: wigos-portal-poc
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    autoDeployTrigger: commit
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_RECORDS_API_BASE
+        value: https://wigos-portal-poc-catalogue.onrender.com
+
+  - type: web
+    runtime: docker
+    name: wigos-portal-poc-catalogue
+    plan: free
+    region: frankfurt
+    dockerContext: .
+    dockerfilePath: ./catalogue/Dockerfile
+    autoDeployTrigger: commit
+    healthCheckPath: /
+    envVars:
+      - key: PYGEOAPI_SERVER_URL
+        value: https://wigos-portal-poc-catalogue.onrender.com

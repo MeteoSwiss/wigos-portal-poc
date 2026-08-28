@@ -1,0 +1,2994 @@
+{
+  "_default": {
+    "1": {
+      "type": "Feature",
+      "id": "0-156-10000-51056",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.56,
+          47.06,
+          3500
+        ]
+      },
+      "time": {
+        "interval": [
+          "2014-01-01",
+          ".."
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "Muz Taw glacier",
+        "description": "Muz Taw glacier station located at the northern side of the Altay Mountains with an area of 4.27 km2. The elevation from glacier terminus to the highest point ranges from 3090 to 3800 m, and the glacier length is 3.7 km. The snow line of this glacier is 3310 m, and the ice volume is 0.28 km3 with an average ice thickness of 66 m. Now the Muz Taw glacier has shrunk extremely due to dramatic melting in the past few decades. The observation of Muz Taw glacier station began in 2014 which involved the observation of glacier mass balance, terminal change, movement speed, and the meteorological phenomena of glacial zone. Muz Taw glacier station is the GCW primary CryoNet Station.",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-156-10000-51056"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:yuexiaoying@lzb.ac.cn",
+            "name": "Yue,Xiaoying",
+            "organization": "Northwest Institute of Eco-Environment and Resources (NIEER), CAS",
+            "emails": [
+              {
+                "value": "yuexiaoying@lzb.ac.cn"
+              }
+            ],
+            "addresses": [
+              {
+                "city": "Lanzhou",
+                "country": "CHN"
+              }
+            ]
+          }
+        ],
+        "facilityType": "landOnIce",
+        "wmoRegion": "asia",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "224",
+          "12249",
+          "10103",
+          "12005",
+          "12006",
+          "12010"
+        ],
+        "currentObservedProperties": [
+          "224",
+          "12249",
+          "10103",
+          "12005",
+          "12006",
+          "12010"
+        ],
+        "observedGeometries": [
+          "point",
+          "totalColumn"
+        ],
+        "observingMethods": [
+          "183"
+        ],
+        "currentObservingMethods": [
+          "183"
+        ],
+        "instrumentManufacturers": [],
+        "currentInstrumentManufacturers": [],
+        "instrumentModels": [],
+        "currentInstrumentModels": [],
+        "currentObservationOperatingStatuses": [],
+        "organizations": [
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+          "Northwest Institute of Eco-Environment and Resources (NIEER), CAS"
+        ],
+        "observationSeriesCount": 6,
+        "currentObservationSeriesCount": 6,
+        "mobile": false,
+        "sourceFile": "20201007_0-156-10000-51056.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20201007_0-156-10000-51056.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20201007_0-156-10000-51056.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "2": {
+      "type": "Feature",
+      "id": "0-20000-0-06494",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0733333333,
+          50.5108333333,
+          671
+        ]
+      },
+      "time": null,
+      "properties": {
+        "type": "wigosFacility",
+        "title": "MONT-RIGI",
+        "description": "The station was originally registered based on WMO Pub 9 Vol A information containing these observation remarks: SOILTEMP;SOLRA;SUNDUR;TOTRA (see code table A for explanations). These remarks imply the following additional observations that could not be registered automatically: Solar radiation measurements; Total radiation measurements.",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-20000-0-06494"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:royal-meteorological-institute-of-belgium-da87bdb444",
+            "organization": "Royal Meteorological Institute of Belgium"
+          }
+        ],
+        "facilityType": "landFixed",
+        "wmoRegion": "europe",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "179",
+          "216",
+          "224",
+          "230",
+          "12249",
+          "265",
+          "266",
+          "270",
+          "531",
+          "550",
+          "596",
+          "12005",
+          "12006"
+        ],
+        "currentObservedProperties": [
+          "179",
+          "216",
+          "224",
+          "230",
+          "12249",
+          "265",
+          "266",
+          "531",
+          "550",
+          "12005",
+          "12006"
+        ],
+        "observedGeometries": [
+          "point",
+          "unknown"
+        ],
+        "observingMethods": [],
+        "currentObservingMethods": [],
+        "instrumentManufacturers": [
+          "unknown"
+        ],
+        "currentInstrumentManufacturers": [
+          "unknown"
+        ],
+        "instrumentModels": [
+          "unknown"
+        ],
+        "currentInstrumentModels": [
+          "unknown"
+        ],
+        "currentObservationOperatingStatuses": [],
+        "organizations": [
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+          "Royal Meteorological Institute of Belgium"
+        ],
+        "observationSeriesCount": 13,
+        "currentObservationSeriesCount": 11,
+        "mobile": false,
+        "sourceFile": "20200304_0-20000-0-06494.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20200304_0-20000-0-06494.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20200304_0-20000-0-06494.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "3": {
+      "type": "Feature",
+      "id": "0-20000-0-06650",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.302,
+          47.037,
+          450
+        ]
+      },
+      "time": {
+        "interval": [
+          "1864-01-01",
+          ".."
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "LUZERN",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-20000-0-06650"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:federal-office-of-meteorology-and-climatology-meteoswiss-ae55bff68a",
+            "organization": "Federal Office of Meteorology and Climatology MeteoSwiss"
+          },
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          }
+        ],
+        "facilityType": "landFixed",
+        "wmoRegion": "europe",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "179",
+          "224"
+        ],
+        "currentObservedProperties": [
+          "224"
+        ],
+        "observedGeometries": [
+          "point"
+        ],
+        "observingMethods": [],
+        "currentObservingMethods": [],
+        "instrumentManufacturers": [
+          "unknown"
+        ],
+        "currentInstrumentManufacturers": [
+          "unknown"
+        ],
+        "instrumentModels": [
+          "unknown"
+        ],
+        "currentInstrumentModels": [
+          "unknown"
+        ],
+        "currentObservationOperatingStatuses": [],
+        "organizations": [
+          "Federal Office of Meteorology and Climatology MeteoSwiss",
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+        ],
+        "observationSeriesCount": 12,
+        "currentObservationSeriesCount": 2,
+        "mobile": false,
+        "sourceFile": "20250731_0-20000-0-06650.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20250731_0-20000-0-06650.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20250731_0-20000-0-06650.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "4": {
+      "type": "Feature",
+      "id": "0-20000-0-06725",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8232,
+          46.4204,
+          1540
+        ]
+      },
+      "time": {
+        "interval": [
+          "2000-08-17",
+          "2025-05-28"
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "BLATTEN, LOETSCHENTAL",
+        "description": "Bla...bla...bla...",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-20000-0-06725"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:federal-office-of-meteorology-and-climatology-meteoswiss-ae55bff68a",
+            "organization": "Federal Office of Meteorology and Climatology MeteoSwiss"
+          },
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          }
+        ],
+        "facilityType": "landFixed",
+        "wmoRegion": "europe",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "57",
+          "180",
+          "210",
+          "216",
+          "224",
+          "225",
+          "226",
+          "230",
+          "12249",
+          "265",
+          "266",
+          "270",
+          "531",
+          "573",
+          "627",
+          "629",
+          "12005",
+          "12006"
+        ],
+        "currentObservedProperties": [],
+        "observedGeometries": [
+          "point"
+        ],
+        "observingMethods": [],
+        "currentObservingMethods": [],
+        "instrumentManufacturers": [
+          "unknown"
+        ],
+        "currentInstrumentManufacturers": [],
+        "instrumentModels": [
+          "unknown"
+        ],
+        "currentInstrumentModels": [],
+        "currentObservationOperatingStatuses": [],
+        "organizations": [
+          "Federal Office of Meteorology and Climatology MeteoSwiss",
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+        ],
+        "observationSeriesCount": 25,
+        "currentObservationSeriesCount": 0,
+        "mobile": false,
+        "sourceFile": "Blatten_20250729_0-20000-0-06725.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/Blatten_20250729_0-20000-0-06725.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/Blatten_20250729_0-20000-0-06725.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "5": {
+      "type": "Feature",
+      "id": "0-20000-0-45004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1727777778,
+          22.3119444444,
+          64.8
+        ]
+      },
+      "time": {
+        "interval": [
+          "1951-06-01",
+          ".."
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "KOWLOON (45004-0)",
+        "description": "The station was originally registered based on WMO Pub 9 Vol A information containing these observation remarks: AUT;CLIMAT(C);EVAP;GAMMA RAY;GUAN;OZONE;RAD;RADSAMP;RBCN;RBSN(T);SOILTEMP;SUNDUR (see code table A for explanations). These remarks imply the following additional observations that could not be registered automatically: Gamma ray measurements; Ozone observations; Radiation measurements; Radioactive sampling.",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-20000-0-45004"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:ckpan@hko.gov.hk",
+            "name": "PAN,Chi-kin,Dr",
+            "organization": "Hong Kong Observatory",
+            "emails": [
+              {
+                "value": "ckpan@hko.gov.hk"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+85229268357"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Hong Kong Observatory 134A Nathan Road"
+                ],
+                "city": "Kowloon",
+                "country": "HKG"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:fylee@hko.gov.hk",
+            "name": "LEE,Eunice Fung-ying,Ms",
+            "organization": "Hong Kong Observatory",
+            "emails": [
+              {
+                "value": "fylee@hko.gov.hk"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+85229268414"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Hong Kong Observatory, 134A, Nathan Road, Kowloon, Hong Kong, China"
+                ],
+                "city": "Kowloon",
+                "country": "HKG"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:olee@hko.gov.hk",
+            "name": "LEE,Olivia S M,Ms",
+            "organization": "Hong Kong Observatory",
+            "emails": [
+              {
+                "value": "olee@hko.gov.hk"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+85229268414"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Hong Kong Observatory 134A Nathan Road, Kowloon"
+                ],
+                "city": "Hong Kong",
+                "country": "HKG"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          }
+        ],
+        "facilityType": "landFixed",
+        "wmoRegion": "asia",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "213",
+          "216",
+          "224",
+          "225",
+          "227",
+          "12249",
+          "256",
+          "270",
+          "310",
+          "510",
+          "596",
+          "12000",
+          "12005",
+          "12006"
+        ],
+        "currentObservedProperties": [
+          "213",
+          "216",
+          "224",
+          "225",
+          "227",
+          "256",
+          "310",
+          "12000",
+          "12005",
+          "12006"
+        ],
+        "observedGeometries": [
+          "point",
+          "verticalProfile",
+          "area",
+          "unknown"
+        ],
+        "observingMethods": [
+          "111",
+          "188",
+          "331",
+          "254",
+          "327",
+          "95"
+        ],
+        "currentObservingMethods": [
+          "111",
+          "188",
+          "331",
+          "254",
+          "327",
+          "95"
+        ],
+        "instrumentManufacturers": [
+          "unknown",
+          "Vaisala Oyj"
+        ],
+        "currentInstrumentManufacturers": [
+          "unknown",
+          "Vaisala Oyj"
+        ],
+        "instrumentModels": [
+          "unknown",
+          "RS41-SG"
+        ],
+        "currentInstrumentModels": [
+          "unknown",
+          "RS41-SG"
+        ],
+        "currentObservationOperatingStatuses": [
+          "testing"
+        ],
+        "organizations": [
+          "Hong Kong Observatory",
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+        ],
+        "observationSeriesCount": 15,
+        "currentObservationSeriesCount": 10,
+        "mobile": false,
+        "sourceFile": "20251218_0-20000-0-45004.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20251218_0-20000-0-45004.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20251218_0-20000-0-45004.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "6": {
+      "type": "Feature",
+      "id": "0-20008-0-ARO",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.844385,
+          46.813324,
+          1590
+        ]
+      },
+      "time": {
+        "interval": [
+          "1926-01-01",
+          "2021-02-18"
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "Arosa",
+        "description": "Last ozone observing instruments (1 Brewer and 1 Dobson) transferred to Davos (0-20008-0-DAV). The ozone observations continues from there.\n\nThe ozone observations from Arosa have been transferred to Davos (0-20008-0-DAV). Arosa which is approximately 12 km south-west of Davos and about 200 m higher. The parallel observation period (with instruments of Arosa being temporarily deployed in Davos) started on 22 Nov 2011. 4 of the 6 instruments (2 Brewers 2 Dobsons) were definitively transferred to Davos on 28 Feb 2018. The two remaining instruments (1 Brewer and 1 Dobson) continued observations in Arosa until 18 Feb 2021 when they were also transferred to Davos and the ozone observations at Arosa definitively stopped. Since then, the ozone time series is continued from Davos.",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-20008-0-ARO"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:pierre.jeannet@meteoswiss.ch",
+            "name": "Jeannet,Pierre,Mr.",
+            "organization": "Federal Office of Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "pierre.jeannet@meteoswiss.ch"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+41266626246"
+              },
+              {
+                "value": "+41266626211"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Station Aérologique MeteoSchweiz Les Invuardes Case postale 316"
+                ],
+                "city": "Payerne",
+                "postalCode": "CH-1530",
+                "country": "CHE"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:rolf.ruefenacht@meteoswiss.ch",
+            "name": "Ruefenacht,Rolf,Dr.",
+            "organization": "Federal Office of Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "rolf.ruefenacht@meteoswiss.ch"
+              }
+            ],
+            "addresses": [
+              {
+                "city": "Payerne",
+                "country": "CHE"
+              }
+            ]
+          }
+        ],
+        "facilityType": "landFixed",
+        "wmoRegion": "europe",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "263",
+          "264"
+        ],
+        "currentObservedProperties": [],
+        "observedGeometries": [
+          "totalColumn",
+          "verticalProfile"
+        ],
+        "observingMethods": [
+          "106",
+          "78"
+        ],
+        "currentObservingMethods": [],
+        "instrumentManufacturers": [],
+        "currentInstrumentManufacturers": [],
+        "instrumentModels": [],
+        "currentInstrumentModels": [],
+        "currentObservationOperatingStatuses": [],
+        "organizations": [
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+          "Federal Office of Meteorology and Climatology MeteoSwiss"
+        ],
+        "observationSeriesCount": 14,
+        "currentObservationSeriesCount": 0,
+        "mobile": false,
+        "sourceFile": "20260318_0-20008-0-ARO.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20260318_0-20008-0-ARO.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20260318_0-20008-0-ARO.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "7": {
+      "type": "Feature",
+      "id": "0-20008-0-DAV",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.844385,
+          46.813324,
+          1590
+        ]
+      },
+      "time": {
+        "interval": [
+          "1969-01-01",
+          ".."
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "Davos",
+        "description": "The Physikalisch-Meteorologisches Observatorium is located the northeaster end of the Davos valley in the Swiss alps. The city of Davos is extending to the southwest of the site. [this description has been copied from AERONET Site Information Database of NASA]\n\nThe ozone observations which started in Arosa (0-20008-0-ARO) in 1926 have been transferred to Davos. Arosa is located approximately 12 km south-west of Davos and about 200 m higher. The parallel observation period (with instruments of Arosa being temporarily deployed in Davos) started on 22 Nov 2011. 4 of the 6 instruments (2 Brewers 2 Dobsons) were definitively transferred to Davos on 28 Feb 2018. The two remaining instruments (1 Brewer and 1 Dobson) continued observations in Arosa until 18 Feb 2021 when they were also transferred to Davos and the ozone observations at Arosa definitively stopped. Since then, the ozone time series is continued from Davos.",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-20008-0-DAV"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:christoph.wehrli@pmodwrc.ch",
+            "name": "Wehrli,Christoph,Dr.",
+            "organization": "Physikalisch-Meteorologisches Observatorium Davos, World Radiation Center",
+            "emails": [
+              {
+                "value": "christoph.wehrli@pmodwrc.ch"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+41814175137"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "PMOD/WRC-WORCC Dorfstrasse 33"
+                ],
+                "city": "Davos",
+                "postalCode": "CH-7260",
+                "country": "CHE"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:julian.groebner@pmodwrc.ch",
+            "name": "Gröbner,Julian,Dr.",
+            "organization": "Physikalisch-Meteorologisches Observatorium Davos, World Radiation Center",
+            "emails": [
+              {
+                "value": "julian.groebner@pmodwrc.ch"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+41814175157"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Physikalisch-Meteorologisches Observatorium Davos, World Radiation Center Dorfstrasse 33"
+                ],
+                "city": "Davos dorf",
+                "postalCode": "7260",
+                "country": "CHE"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:laurent.vuilleumier@meteoswiss.ch",
+            "name": "Vuilleumier,Laurent,Dr.",
+            "organization": "Federal Office of Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "laurent.vuilleumier@meteoswiss.ch"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+41584609541"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "MeteoSwiss"
+                ],
+                "city": "Payerne",
+                "country": "CHE"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:pierre.jeannet@meteoswiss.ch",
+            "name": "Jeannet,Pierre,Mr.",
+            "organization": "Federal Office of Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "pierre.jeannet@meteoswiss.ch"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+41266626246"
+              },
+              {
+                "value": "+41266626211"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Station Aérologique MeteoSchweiz Les Invuardes Case postale 316"
+                ],
+                "city": "Payerne",
+                "postalCode": "CH-1530",
+                "country": "CHE"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:rolf.ruefenacht@meteoswiss.ch",
+            "name": "Ruefenacht,Rolf,Dr.",
+            "organization": "Federal Office of Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "rolf.ruefenacht@meteoswiss.ch"
+              }
+            ],
+            "addresses": [
+              {
+                "city": "Payerne",
+                "country": "CHE"
+              }
+            ]
+          }
+        ],
+        "facilityType": "landFixed",
+        "wmoRegion": "europe",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "263",
+          "264",
+          "325",
+          "356",
+          "358",
+          "359",
+          "565",
+          "566",
+          "571",
+          "572",
+          "573"
+        ],
+        "currentObservedProperties": [
+          "263",
+          "264",
+          "325"
+        ],
+        "observedGeometries": [
+          "totalColumn",
+          "verticalProfile",
+          "point"
+        ],
+        "observingMethods": [
+          "106",
+          "78",
+          "210",
+          "197",
+          "263",
+          "265"
+        ],
+        "currentObservingMethods": [
+          "106",
+          "78",
+          "210",
+          "197"
+        ],
+        "instrumentManufacturers": [
+          "unknown"
+        ],
+        "currentInstrumentManufacturers": [
+          "unknown"
+        ],
+        "instrumentModels": [
+          "unknown"
+        ],
+        "currentInstrumentModels": [
+          "unknown"
+        ],
+        "currentObservationOperatingStatuses": [],
+        "organizations": [
+          "Physikalisch-Meteorologisches Observatorium Davos, World Radiation Center",
+          "Federal Office of Meteorology and Climatology MeteoSwiss",
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+        ],
+        "observationSeriesCount": 15,
+        "currentObservationSeriesCount": 4,
+        "mobile": false,
+        "sourceFile": "20260318_0-20008-0-DAV.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20260318_0-20008-0-DAV.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20260318_0-20008-0-DAV.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "8": {
+      "type": "Feature",
+      "id": "0-20008-0-MKN",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.2971992493,
+          -0.0621999986,
+          3678
+        ]
+      },
+      "time": {
+        "interval": [
+          "1999-01-01",
+          ".."
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "Mt. Kenya",
+        "description": "The station is situated above Moses Camp on the northern upper slopes of Mt. Kenya in a wildlife preserve above the tree line and provides measurements of the tropical mid-troposphere as well as air from the lower humid boundary layer. Access is along Sirimon Route, a distance of 21km from the Nanyuki-Timau main road. The turn-off is about 16km from Nanyuki. A new settlement has been created in the former forest land after the turn-off. The asphalt / concrete road leads up to Old Moses camp, beyond which a rugged footpath leads to the station. The station itself consists of 2 cargo containers with expansions and sanitary facilities on site. One of the containers host the instrument racks.",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-20008-0-MKN"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:colnex2004@yahoo.co.uk",
+            "name": "Okuku,Constance,Mr.",
+            "organization": "Kenyan Meteorological Department",
+            "emails": [
+              {
+                "value": "colnex2004@yahoo.co.uk"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+25420386780"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Kenya Meteorological Department Mt Kenya GAW station Kenyatta"
+                ],
+                "city": "Nairobi",
+                "postalCode": "30259-00100",
+                "country": "KEN"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:joerg.klausen@meteoswiss.ch",
+            "name": "Klausen,Jörg,Dr.",
+            "organization": "Federal Office of Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "joerg.klausen@meteoswiss.ch"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+41584609223"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Federal Department of Home Affairs FDHA Federal Office of Meteorology and Climatology MeteoSwiss Measurements and Data Operation Center 1 (OPC 1) P.O. Box 257"
+                ],
+                "city": "Zürich-Flughafen",
+                "postalCode": "CH-8058",
+                "country": "CHE"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:kk_thiongo@yahoo.com",
+            "name": "Thiong'o,Kennedy K.,Mr.",
+            "organization": "Kenyan Meteorological Department",
+            "emails": [
+              {
+                "value": "kk_thiongo@yahoo.com"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+254722267499"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Kenya Meteorological Department Dagoretti Corner, Ngong Road P.O. Box 30259"
+                ],
+                "city": "Nairobi",
+                "country": "KEN"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:martin.steinbacher@empa.ch",
+            "name": "Steinbacher,Martin,Dr.",
+            "organization": "Empa Dübendorf, Laboratory for Air Pollution and Environmental Technology",
+            "emails": [
+              {
+                "value": "martin.steinbacher@empa.ch"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+41587654048"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Empa Ueberlandstrasse 129"
+                ],
+                "city": "Dübendorf",
+                "postalCode": "8600",
+                "country": "CHE"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          }
+        ],
+        "facilityType": "landFixed",
+        "wmoRegion": "africa",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "192",
+          "194",
+          "195",
+          "196",
+          "201",
+          "203",
+          "205",
+          "216",
+          "224",
+          "248",
+          "12249",
+          "262",
+          "284",
+          "317",
+          "323",
+          "369",
+          "437",
+          "445",
+          "497",
+          "499",
+          "501",
+          "502",
+          "571",
+          "573",
+          "12005",
+          "12006"
+        ],
+        "currentObservedProperties": [
+          "201",
+          "203",
+          "205",
+          "216",
+          "224",
+          "248",
+          "12249",
+          "284",
+          "317",
+          "323",
+          "369",
+          "12005",
+          "12006"
+        ],
+        "observedGeometries": [
+          "point",
+          "line"
+        ],
+        "observingMethods": [
+          "301",
+          "317",
+          "221",
+          "120",
+          "73",
+          "188",
+          "201",
+          "247",
+          "254",
+          "220",
+          "230",
+          "240",
+          "60",
+          "215"
+        ],
+        "currentObservingMethods": [
+          "120",
+          "73",
+          "188",
+          "201",
+          "247",
+          "254",
+          "220",
+          "230",
+          "240",
+          "215"
+        ],
+        "instrumentManufacturers": [
+          "unknown",
+          "G. Lufft GmbH",
+          "Aerosol Magee Scientific",
+          "Acoem Ecotech",
+          "VAISALA"
+        ],
+        "currentInstrumentManufacturers": [
+          "unknown",
+          "G. Lufft GmbH",
+          "Aerosol Magee Scientific",
+          "Acoem Ecotech"
+        ],
+        "instrumentModels": [
+          "unknown",
+          "WS700-UMB Smart Weather Sensor",
+          "WS600-UMB",
+          "AE33 Aethalometer",
+          "NE-300 Integrating Nephelometer",
+          "VAISALA_ULTRASONIC WINDSENSOR"
+        ],
+        "currentInstrumentModels": [
+          "unknown",
+          "WS700-UMB Smart Weather Sensor",
+          "AE33 Aethalometer",
+          "NE-300 Integrating Nephelometer",
+          "WS600-UMB"
+        ],
+        "currentObservationOperatingStatuses": [
+          "operational",
+          "inactive"
+        ],
+        "organizations": [
+          "Kenyan Meteorological Department",
+          "Federal Office of Meteorology and Climatology MeteoSwiss",
+          "Empa Dübendorf, Laboratory for Air Pollution and Environmental Technology",
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+        ],
+        "observationSeriesCount": 32,
+        "currentObservationSeriesCount": 14,
+        "mobile": false,
+        "sourceFile": "20251001_0-20008-0-MKN.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20251001_0-20008-0-MKN.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20251001_0-20008-0-MKN.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "9": {
+      "type": "Feature",
+      "id": "0-20008-0-NRB",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.75919,
+          -1.30169,
+          1795
+        ]
+      },
+      "time": {
+        "interval": [
+          "1996-01-01",
+          ".."
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "Nairobi",
+        "description": "The station is located at 01° 18'S 36° 45' E at an altitude of 1795m and is within the compound of the Kenya Meteorological Department headquarters at Dagoretti Corner, Nairobi.",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-20008-0-NRB"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:ckennethkibaara@yahoo.com",
+            "name": "chabari,Kenneth,Mr",
+            "organization": "Kenyan Meteorological Department",
+            "emails": [
+              {
+                "value": "ckennethkibaara@yahoo.com"
+              }
+            ],
+            "addresses": [
+              {
+                "city": "nairobi",
+                "country": "KEN"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:gonzague.romanens@meteoswiss.ch",
+            "name": "Romanens,Gonzague,Mr",
+            "organization": "Federal Office of Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "gonzague.romanens@meteoswiss.ch"
+              }
+            ],
+            "addresses": [
+              {
+                "city": "Payerne",
+                "country": "CHE"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:joerg.klausen@meteoswiss.ch",
+            "name": "Klausen,Jörg,Dr.",
+            "organization": "Federal Office of Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "joerg.klausen@meteoswiss.ch"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+41584609223"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Federal Department of Home Affairs FDHA Federal Office of Meteorology and Climatology MeteoSwiss Measurements and Data Operation Center 1 (OPC 1) P.O. Box 257"
+                ],
+                "city": "Zürich-Flughafen",
+                "postalCode": "CH-8058",
+                "country": "CHE"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:jokimi@yahoo.com",
+            "name": "Mitei,Johana",
+            "organization": "Kenyan Meteorological Department",
+            "emails": [
+              {
+                "value": "jokimi@yahoo.com"
+              }
+            ],
+            "addresses": [
+              {
+                "city": "Nairobi",
+                "country": "KEN"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:kmurageh@yahoo.co.uk",
+            "name": "Murageh,Josiah Kariuki",
+            "organization": "Kenyan Meteorological Department",
+            "emails": [
+              {
+                "value": "kmurageh@yahoo.co.uk"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+254734294782"
+              },
+              {
+                "value": "+254203867880"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Kenya Meteorological Department Dagoretti Corner P.O. Box 30259"
+                ],
+                "city": "Nairobi",
+                "postalCode": "00100",
+                "country": "KEN"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:nguyo2000@yahoo.com",
+            "name": "Nguyo,John Kaniaru,Mr.",
+            "organization": "Kenyan Meteorological Department",
+            "emails": [
+              {
+                "value": "nguyo2000@yahoo.com"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Kenya Meteorological Department"
+                ],
+                "country": "KEN"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:syprosenyadida1@gmail.com",
+            "name": "Nyandida,Syprose,Mrs",
+            "organization": "Kenyan Meteorological Department",
+            "emails": [
+              {
+                "value": "syprosenyadida1@gmail.com"
+              },
+              {
+                "value": "sawuor@meteo.go.ke"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+254722406492"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "P.O BOX 30259"
+                ],
+                "city": "Nairobi",
+                "postalCode": "00100",
+                "country": "KEN"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:waweru_k@yahoo.com",
+            "name": "Waweru,Amos,Mr",
+            "organization": "Kenyan Meteorological Department",
+            "emails": [
+              {
+                "value": "waweru_k@yahoo.com"
+              },
+              {
+                "value": "amoskamau1969@gmail.com"
+              }
+            ],
+            "phones": [
+              {
+                "value": "254723521586"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Kenya Meteorological Department 30259 Nairobi Kenya"
+                ],
+                "city": "Nairobi",
+                "postalCode": "00100",
+                "country": "KEN"
+              }
+            ]
+          }
+        ],
+        "facilityType": "landFixed",
+        "wmoRegion": "africa",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "263",
+          "264",
+          "325",
+          "369",
+          "573"
+        ],
+        "currentObservedProperties": [
+          "263",
+          "325",
+          "369"
+        ],
+        "observedGeometries": [
+          "totalColumn",
+          "verticalProfile",
+          "point"
+        ],
+        "observingMethods": [
+          "106",
+          "107",
+          "244",
+          "240"
+        ],
+        "currentObservingMethods": [
+          "244",
+          "240"
+        ],
+        "instrumentManufacturers": [
+          "Kipp&Zonen",
+          "R&J Beck London",
+          "CIMEL"
+        ],
+        "currentInstrumentManufacturers": [
+          "Kipp&Zonen",
+          "CIMEL"
+        ],
+        "instrumentModels": [
+          "Brewer MkIII",
+          "Dobson",
+          "CE318TS9 (Sun Photometer)"
+        ],
+        "currentInstrumentModels": [
+          "Brewer MkIII",
+          "CE318TS9 (Sun Photometer)"
+        ],
+        "currentObservationOperatingStatuses": [
+          "operational"
+        ],
+        "organizations": [
+          "Kenyan Meteorological Department",
+          "Federal Office of Meteorology and Climatology MeteoSwiss",
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+        ],
+        "observationSeriesCount": 10,
+        "currentObservationSeriesCount": 3,
+        "mobile": false,
+        "sourceFile": "20250504_0-20008-0-NRB.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20250504_0-20008-0-NRB.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20250504_0-20008-0-NRB.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "10": {
+      "type": "Feature",
+      "id": "0-20008-0-THE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956,
+          40.634,
+          60
+        ]
+      },
+      "time": {
+        "interval": [
+          "1982-03-13",
+          ".."
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "Thessaloniki",
+        "description": "The Brewer spectrophotometers and all radaition instruments are located on the roof of the 4-storey building of the Physics Dept., of the Aristotle University of Thessaloniki. The Campus is located in the city center about 500 m east of the seashore. The highest elevation of about 1100 m is at a distance of about 15 km towards the east. Thessaloniki is the second largest city of Greece with about 1000000 inhabitants in the greater metropolitan area.",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-20008-0-THE"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:abais@auth.gr",
+            "name": "Bais,Alkiviadis,Emeritus Prof.",
+            "organization": "Aristotle University of Thessaloniki",
+            "emails": [
+              {
+                "value": "abais@auth.gr"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+302310998184"
+              },
+              {
+                "value": "+302310998156"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Aristotle University of Thessaloniki Laboratory of Atmospheric Phsyics Box 149"
+                ],
+                "city": "Thessaloniki",
+                "postalCode": "54124",
+                "country": "GRC"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:balis@auth.gr",
+            "name": "Balis,Dimitris,Professor",
+            "organization": "Aristotle University of Thessaloniki",
+            "emails": [
+              {
+                "value": "balis@auth.gr"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+302310998192"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Laboratory of Atmospheric Physics, School of Physics"
+                ],
+                "city": "Thessaloniki",
+                "postalCode": "54124",
+                "country": "GRC"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:clima@hnms.gr",
+            "name": "Michelaraki,M.,Mrs",
+            "organization": "Hellenic National Meteorological Service",
+            "emails": [
+              {
+                "value": "clima@hnms.gr"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+302109699034"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Section of Meteorology of Environment Division of Climatology HNMS 14 El. Venizeloy Str. Hellinikon"
+                ],
+                "city": "Athens",
+                "postalCode": "16777",
+                "country": "GRC"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          }
+        ],
+        "facilityType": "landFixed",
+        "wmoRegion": "europe",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "263",
+          "314",
+          "325",
+          "359",
+          "572",
+          "573",
+          "12150",
+          "12151",
+          "12153",
+          "12159"
+        ],
+        "currentObservedProperties": [
+          "263",
+          "359",
+          "572",
+          "573"
+        ],
+        "observedGeometries": [
+          "totalColumn",
+          "area",
+          "point",
+          "verticalProfile"
+        ],
+        "observingMethods": [
+          "78",
+          "268",
+          "264",
+          "266"
+        ],
+        "currentObservingMethods": [
+          "78",
+          "268",
+          "264",
+          "266"
+        ],
+        "instrumentManufacturers": [
+          "Kipp&Zonen"
+        ],
+        "currentInstrumentManufacturers": [
+          "Kipp&Zonen"
+        ],
+        "instrumentModels": [
+          "CHP 1",
+          "CM21"
+        ],
+        "currentInstrumentModels": [
+          "CHP 1",
+          "CM21"
+        ],
+        "currentObservationOperatingStatuses": [
+          "operational"
+        ],
+        "organizations": [
+          "Aristotle University of Thessaloniki",
+          "Hellenic National Meteorological Service",
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+        ],
+        "observationSeriesCount": 10,
+        "currentObservationSeriesCount": 4,
+        "mobile": false,
+        "sourceFile": "20241211_0-20008-0-THE.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20241211_0-20008-0-THE.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20241211_0-20008-0-THE.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "11": {
+      "type": "Feature",
+      "id": "0-250-1005-SARg",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.07,
+          45.07,
+          2850
+        ]
+      },
+      "time": {
+        "interval": [
+          "1949-01-01",
+          ".."
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "Sarennes Glacier",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-250-1005-SARg"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:delphine.six@univ-grenoble-alpes.fr",
+            "name": "SIX,Delphine,Mme",
+            "organization": "Université Grenoble-Alpes",
+            "emails": [
+              {
+                "value": "delphine.six@univ-grenoble-alpes.fr"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+33476824239"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "UGA - IGE CS 40700"
+                ],
+                "city": "Grenoble",
+                "postalCode": "38058",
+                "country": "FRA"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          }
+        ],
+        "facilityType": "landOnIce",
+        "wmoRegion": "europe",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "12010"
+        ],
+        "currentObservedProperties": [
+          "12010"
+        ],
+        "observedGeometries": [
+          "unknown"
+        ],
+        "observingMethods": [],
+        "currentObservingMethods": [],
+        "instrumentManufacturers": [],
+        "currentInstrumentManufacturers": [],
+        "instrumentModels": [],
+        "currentInstrumentModels": [],
+        "currentObservationOperatingStatuses": [],
+        "organizations": [
+          "Université Grenoble-Alpes",
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+        ],
+        "observationSeriesCount": 1,
+        "currentObservationSeriesCount": 1,
+        "mobile": false,
+        "sourceFile": "20230331_0-250-1005-SARg.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20230331_0-250-1005-SARg.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20230331_0-250-1005-SARg.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "12": {
+      "type": "Feature",
+      "id": "0-404-0-63707",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3833,
+          -0.714732,
+          2156
+        ]
+      },
+      "time": {
+        "interval": [
+          "2020-09-21",
+          ".."
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "BOMET",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-404-0-63707"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:gitaukaigua@gmail.com",
+            "name": "KAIGUA,JAMES",
+            "organization": "Kenya Meteorological Department",
+            "emails": [
+              {
+                "value": "gitaukaigua@gmail.com"
+              }
+            ],
+            "phones": [
+              {
+                "value": "0722782074"
+              }
+            ],
+            "addresses": [
+              {
+                "city": "Nairobi",
+                "postalCode": "+254",
+                "country": "KEN"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          }
+        ],
+        "facilityType": "landFixed",
+        "wmoRegion": "africa",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "12249",
+          "210",
+          "216",
+          "224",
+          "225",
+          "230",
+          "12005",
+          "12006"
+        ],
+        "currentObservedProperties": [
+          "12249",
+          "210",
+          "216",
+          "224",
+          "225",
+          "230",
+          "12005",
+          "12006"
+        ],
+        "observedGeometries": [
+          "point"
+        ],
+        "observingMethods": [
+          "inapplicable"
+        ],
+        "currentObservingMethods": [
+          "inapplicable"
+        ],
+        "instrumentManufacturers": [
+          "unknown"
+        ],
+        "currentInstrumentManufacturers": [
+          "unknown"
+        ],
+        "instrumentModels": [
+          "unknown"
+        ],
+        "currentInstrumentModels": [
+          "unknown"
+        ],
+        "currentObservationOperatingStatuses": [],
+        "organizations": [
+          "Kenya Meteorological Department",
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+        ],
+        "observationSeriesCount": 9,
+        "currentObservationSeriesCount": 9,
+        "mobile": false,
+        "sourceFile": "20220511_0-404-0-63707.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20220511_0-404-0-63707.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20220511_0-404-0-63707.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "13": {
+      "type": "Feature",
+      "id": "0-404-800-4AA01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.06812,
+          -0.36172,
+          1813
+        ]
+      },
+      "time": {
+        "interval": [
+          "1947-09-01",
+          ".."
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "Sagana",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-404-800-4AA01"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:jtmuiruri@gmail.com",
+            "name": "MUIRURI,JOHN,Mr",
+            "organization": "KENYA METEOROLOGICAL DEPARTMENT",
+            "emails": [
+              {
+                "value": "jtmuiruri@gmail.com"
+              }
+            ],
+            "phones": [
+              {
+                "value": "0722442639"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "P.O BOX 30259"
+                ],
+                "city": "NAIROBI",
+                "postalCode": "00100",
+                "country": "KEN"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          }
+        ],
+        "facilityType": "lakeRiverFixed",
+        "wmoRegion": "africa",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "12252"
+        ],
+        "currentObservedProperties": [
+          "12252"
+        ],
+        "observedGeometries": [
+          "verticalProfile"
+        ],
+        "observingMethods": [
+          "356"
+        ],
+        "currentObservingMethods": [
+          "356"
+        ],
+        "instrumentManufacturers": [],
+        "currentInstrumentManufacturers": [],
+        "instrumentModels": [],
+        "currentInstrumentModels": [],
+        "currentObservationOperatingStatuses": [],
+        "organizations": [
+          "KENYA METEOROLOGICAL DEPARTMENT",
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+        ],
+        "observationSeriesCount": 1,
+        "currentObservationSeriesCount": 1,
+        "mobile": false,
+        "sourceFile": "20250314_0-404-800-4AA01.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20250314_0-404-800-4AA01.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20250314_0-404-800-4AA01.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "14": {
+      "type": "Feature",
+      "id": "0-410-0-22184",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.14111,
+          33.79361,
+          0
+        ]
+      },
+      "time": {
+        "interval": [
+          "2014-01-14",
+          "2024-09-30"
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "Chujado",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-410-0-22184"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:korea-meteorology-administration-7003125dba",
+            "organization": "Korea Meteorology Administration"
+          },
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          }
+        ],
+        "facilityType": "seaFixed",
+        "wmoRegion": "asia",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "95",
+          "98",
+          "99",
+          "100",
+          "216",
+          "224",
+          "12249",
+          "12005",
+          "12006"
+        ],
+        "currentObservedProperties": [],
+        "observedGeometries": [
+          "point"
+        ],
+        "observingMethods": [],
+        "currentObservingMethods": [],
+        "instrumentManufacturers": [],
+        "currentInstrumentManufacturers": [],
+        "instrumentModels": [],
+        "currentInstrumentModels": [],
+        "currentObservationOperatingStatuses": [],
+        "organizations": [
+          "Korea Meteorology Administration",
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+        ],
+        "observationSeriesCount": 9,
+        "currentObservationSeriesCount": 0,
+        "mobile": false,
+        "sourceFile": "20250529_0-410-0-22184.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20250529_0-410-0-22184.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20250529_0-410-0-22184.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "15": {
+      "type": "Feature",
+      "id": "0-434-0-62061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.676972,
+          32.701834,
+          250
+        ]
+      },
+      "time": {
+        "interval": [
+          "2026-05-01",
+          ".."
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "AL-FATAYEH",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-434-0-62061"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:faragelzait@yahoo.com",
+            "name": "ZAYET,Faraj M,Mr",
+            "organization": "Libyan National Meteorological Centre",
+            "emails": [
+              {
+                "value": "faragelzait@yahoo.com"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+218926241078"
+              },
+              {
+                "value": "+218677804713"
+              }
+            ],
+            "addresses": [
+              {
+                "city": "elmarj",
+                "postalCode": "P.O. Box 5069",
+                "country": "LBY"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          }
+        ],
+        "facilityType": "landFixed",
+        "wmoRegion": "africa",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "210",
+          "216",
+          "224",
+          "12249",
+          "12005",
+          "12006"
+        ],
+        "currentObservedProperties": [
+          "210",
+          "216",
+          "224",
+          "12249",
+          "12005",
+          "12006"
+        ],
+        "observedGeometries": [
+          "point"
+        ],
+        "observingMethods": [
+          "212",
+          "111",
+          "188",
+          "338",
+          "176"
+        ],
+        "currentObservingMethods": [
+          "212",
+          "111",
+          "188",
+          "338",
+          "176"
+        ],
+        "instrumentManufacturers": [],
+        "currentInstrumentManufacturers": [],
+        "instrumentModels": [],
+        "currentInstrumentModels": [],
+        "currentObservationOperatingStatuses": [
+          "operational"
+        ],
+        "organizations": [
+          "Libyan National Meteorological Centre",
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+        ],
+        "observationSeriesCount": 12,
+        "currentObservationSeriesCount": 12,
+        "mobile": false,
+        "sourceFile": "20260511_0-434-0-62061.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20260511_0-434-0-62061.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20260511_0-434-0-62061.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "16": {
+      "type": "Feature",
+      "id": "0-578-0-92100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4668,
+          -71.9563,
+          1235
+        ]
+      },
+      "time": {
+        "interval": [
+          "2007-01-01",
+          ".."
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "TROLL AIRFIELD",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-578-0-92100"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:christina.pedersen@npolar.no",
+            "name": "Pedersen,Christina Alsvik,Dr.",
+            "organization": "Norwegian Polar Institute",
+            "emails": [
+              {
+                "value": "christina.pedersen@npolar.no"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Norwegian Polar Institute"
+                ],
+                "city": "Tromsø",
+                "country": "NOR"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          }
+        ],
+        "facilityType": "landOnIce",
+        "wmoRegion": "antarctica",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "216",
+          "224",
+          "12249",
+          "12005"
+        ],
+        "currentObservedProperties": [
+          "216",
+          "224",
+          "12249",
+          "12005"
+        ],
+        "observedGeometries": [
+          "point"
+        ],
+        "observingMethods": [
+          "111",
+          "188",
+          "254",
+          "63"
+        ],
+        "currentObservingMethods": [
+          "111",
+          "188",
+          "254",
+          "63"
+        ],
+        "instrumentManufacturers": [],
+        "currentInstrumentManufacturers": [],
+        "instrumentModels": [],
+        "currentInstrumentModels": [],
+        "currentObservationOperatingStatuses": [],
+        "organizations": [
+          "Norwegian Polar Institute",
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+        ],
+        "observationSeriesCount": 4,
+        "currentObservationSeriesCount": 4,
+        "mobile": false,
+        "sourceFile": "20221124_0-578-0-92100.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20221124_0-578-0-92100.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20221124_0-578-0-92100.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "17": {
+      "type": "Feature",
+      "id": "0-70-0-Lukavac",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5262,
+          44.5213,
+          188.17
+        ]
+      },
+      "time": {
+        "interval": [
+          "2019-08-05",
+          ".."
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "LUKAVAC",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-70-0-Lukavac"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:merima.trako@fhmzbih.gov.ba",
+            "name": "Trako,Merima,Ms",
+            "organization": "Federal Hydrometeorological Institute",
+            "emails": [
+              {
+                "value": "merima.trako@fhmzbih.gov.ba"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "Bardakčije 12"
+                ],
+                "city": "Sarajevo",
+                "postalCode": "71000",
+                "country": "BIH"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          }
+        ],
+        "facilityType": "underwaterFixed",
+        "wmoRegion": "europe",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "166"
+        ],
+        "currentObservedProperties": [
+          "166"
+        ],
+        "observedGeometries": [
+          "point"
+        ],
+        "observingMethods": [
+          "356"
+        ],
+        "currentObservingMethods": [
+          "356"
+        ],
+        "instrumentManufacturers": [],
+        "currentInstrumentManufacturers": [],
+        "instrumentModels": [],
+        "currentInstrumentModels": [],
+        "currentObservationOperatingStatuses": [],
+        "organizations": [
+          "Federal Hydrometeorological Institute",
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+        ],
+        "observationSeriesCount": 1,
+        "currentObservationSeriesCount": 1,
+        "mobile": false,
+        "sourceFile": "20260604_0-70-0-Lukavac.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20260604_0-70-0-Lukavac.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20260604_0-70-0-Lukavac.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "18": {
+      "type": "Feature",
+      "id": "0-756-1-387493",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.946457,
+          46.752729,
+          2394
+        ]
+      },
+      "time": {
+        "interval": [
+          "2002-10-01",
+          ".."
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "Flüela permafrost",
+        "description": "The Flüela station is part of the Swiss Permafrost Monitoring Network (PERMOS; www.permos.ch). The station is important to monitor and analyse the evolution of ground temperature, permafrost thickness, and the degradation of ground ice in talus deposits, which are important forms of debris storage in mountain environments and can cause mass movements, subsidence or instability of mountain infrastructure. It is the first permafrost research site of the Swiss Alps (Haeberli 1975). Two boreholes were drilled in 2002, instrumented with thermistor chains, one being still in use with ground temperatures measured down to 25 m. The station also delivers data to the Swiss Inter cantonal Measurement and Information System (IMIS) network used by the Swiss Avalanche Warning Service WSL/SLF (https://whiterisk.ch/fr/conditions/measurements/station/IMIS/FLU2). _ Additional cryosphere measurements: - Snow (gentle grassy slope): Snow surface temperature Snow temperatures at 25, 50, and 100 cm above ground (from 2003 to 2020) - Permafrost (talus slope): Daily photographs of site and regular high resolution aerial photographs; Electrical Resistance Tomography (ERT) and seismic measurements were done in 1975 and from 2009 to 2012. _",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-756-1-387493"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:marty@slf.ch",
+            "name": "Marty,Christoph,Dr",
+            "organization": "WSL Institute for Snow and Avalanche Research SLF",
+            "emails": [
+              {
+                "value": "marty@slf.ch"
+              }
+            ],
+            "addresses": [
+              {
+                "city": "Davos Dorf",
+                "country": "CHE"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:phillips@slf.ch",
+            "name": "Phillips,Marcia,Dr",
+            "organization": "WSL Institute for Snow and Avalanche Research SLF",
+            "emails": [
+              {
+                "value": "phillips@slf.ch"
+              }
+            ],
+            "addresses": [
+              {
+                "city": "Davos Dorf",
+                "country": "CHE"
+              }
+            ]
+          }
+        ],
+        "facilityType": "landFixed",
+        "wmoRegion": "europe",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "210",
+          "216",
+          "224",
+          "12249",
+          "389",
+          "566",
+          "567",
+          "573",
+          "575",
+          "629",
+          "12005",
+          "12006",
+          "12014",
+          "12015",
+          "12283"
+        ],
+        "currentObservedProperties": [
+          "210",
+          "216",
+          "224",
+          "12249",
+          "566",
+          "567",
+          "573",
+          "575",
+          "629",
+          "12005",
+          "12006",
+          "12014",
+          "12015",
+          "12283"
+        ],
+        "observedGeometries": [
+          "point",
+          "verticalProfile"
+        ],
+        "observingMethods": [
+          "204",
+          "inapplicable",
+          "188",
+          "250",
+          "265",
+          "266",
+          "260",
+          "63"
+        ],
+        "currentObservingMethods": [
+          "204",
+          "inapplicable",
+          "188",
+          "250",
+          "265",
+          "266",
+          "260",
+          "63"
+        ],
+        "instrumentManufacturers": [
+          "Campbell Scientific",
+          "Vaisala Oyj",
+          "Kipp&Zonen",
+          "RM Young"
+        ],
+        "currentInstrumentManufacturers": [
+          "Campbell Scientific",
+          "Vaisala Oyj",
+          "Kipp&Zonen",
+          "RM Young"
+        ],
+        "instrumentModels": [
+          "ARG100",
+          "VAISALA PTB110",
+          "107 Temperature probe",
+          "CNR 4",
+          "Wind Monitor 05103"
+        ],
+        "currentInstrumentModels": [
+          "ARG100",
+          "VAISALA PTB110",
+          "CNR 4",
+          "Wind Monitor 05103"
+        ],
+        "currentObservationOperatingStatuses": [
+          "operational"
+        ],
+        "organizations": [
+          "WSL Institute for Snow and Avalanche Research SLF",
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+        ],
+        "observationSeriesCount": 17,
+        "currentObservationSeriesCount": 15,
+        "mobile": false,
+        "sourceFile": "20250728_0-756-1-387493.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20250728_0-756-1-387493.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20250728_0-756-1-387493.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    },
+    "19": {
+      "type": "Feature",
+      "id": "0-840-11502-KominkoSlade",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.106,
+          -79.466,
+          1801
+        ]
+      },
+      "time": {
+        "interval": [
+          "2006-01-13",
+          ".."
+        ],
+        "resolution": "P1D"
+      },
+      "properties": {
+        "type": "wigosFacility",
+        "title": "Kominko-Slade (WAIS)",
+        "externalIds": [
+          {
+            "scheme": "WMO:WIGOS",
+            "value": "0-840-11502-KominkoSlade"
+          }
+        ],
+        "contacts": [
+          {
+            "identifier": "contact:mattl@ssec.wisc.edu",
+            "name": "Lazzara,Matthew A.,Dr.",
+            "organization": "University of Wisconsin-Madison",
+            "emails": [
+              {
+                "value": "mattl@ssec.wisc.edu"
+              },
+              {
+                "value": "mlazzara@madisoncollege.edu"
+              }
+            ],
+            "phones": [
+              {
+                "value": "+16082620436"
+              },
+              {
+                "value": "+16086163382"
+              }
+            ],
+            "addresses": [
+              {
+                "deliveryPoint": [
+                  "1225 West Dayton Street"
+                ],
+                "city": "Madison",
+                "postalCode": "53706",
+                "country": "USA"
+              }
+            ]
+          },
+          {
+            "identifier": "contact:oscar@wmo.int",
+            "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+            "emails": [
+              {
+                "value": "oscar@wmo.int"
+              },
+              {
+                "value": "https://oscar.wmo.int/surface/#/feedback"
+              }
+            ],
+            "links": [
+              {
+                "href": "https://oscar.wmo.int/surface",
+                "rel": "about",
+                "type": "text/html"
+              }
+            ]
+          }
+        ],
+        "facilityType": "landOnIce",
+        "wmoRegion": "antarctica",
+        "programmes": [],
+        "currentProgrammes": [],
+        "observedProperties": [
+          "216",
+          "224",
+          "12249",
+          "12005",
+          "12006"
+        ],
+        "currentObservedProperties": [
+          "216",
+          "224",
+          "12249",
+          "12005",
+          "12006"
+        ],
+        "observedGeometries": [
+          "point"
+        ],
+        "observingMethods": [
+          "111",
+          "188",
+          "250",
+          "65"
+        ],
+        "currentObservingMethods": [
+          "111",
+          "188",
+          "250",
+          "65"
+        ],
+        "instrumentManufacturers": [
+          "PAROSCIENTIFIC",
+          "Weed Instrument",
+          "Vaisala Oyj",
+          "RM Young"
+        ],
+        "currentInstrumentManufacturers": [
+          "PAROSCIENTIFIC",
+          "Weed Instrument",
+          "Vaisala Oyj",
+          "RM Young"
+        ],
+        "instrumentModels": [
+          "Series 2000 Absolute and Gauge Pressure Transducers - 215A-102",
+          "Platinum resistance thermometer (PRT)",
+          "VAISALA_HMP45A",
+          "Wind Monitor HD-Alpine 05108-45"
+        ],
+        "currentInstrumentModels": [
+          "Series 2000 Absolute and Gauge Pressure Transducers - 215A-102",
+          "Platinum resistance thermometer (PRT)",
+          "VAISALA_HMP45A",
+          "Wind Monitor HD-Alpine 05108-45"
+        ],
+        "currentObservationOperatingStatuses": [],
+        "organizations": [
+          "University of Wisconsin-Madison",
+          "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss"
+        ],
+        "observationSeriesCount": 5,
+        "currentObservationSeriesCount": 5,
+        "mobile": false,
+        "sourceFile": "20240806_0-840-11502-KominkoSlade.json",
+        "wmdr2Url": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20240806_0-840-11502-KominkoSlade.json"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/wmo-im/wmdr2-devt/main/results/wmdr2_json_examples/20240806_0-840-11502-KominkoSlade.json",
+          "rel": "canonical",
+          "type": "application/geo+json",
+          "title": "Canonical WMDR2 JSON"
+        }
+      ]
+    }
+  }
+}

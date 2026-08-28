@@ -1,0 +1,813 @@
+{
+  "type": "Feature",
+  "id": "0-434-0-62061",
+  "conformsTo": [
+    "http://wigos.wmo.int/spec/wmdr/2/conf/core"
+  ],
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      22.676972,
+      32.701834,
+      250
+    ]
+  },
+  "properties": {
+    "type": "facility",
+    "title": "AL-FATAYEH",
+    "created": "2026-05-11T00:00:00Z",
+    "updated": "2026-05-11T00:00:00Z",
+    "facilityType": "landFixed",
+    "territory": [
+      {
+        "territory": "LBY",
+        "time": {
+          "interval": [
+            "2026-05-01",
+            ".."
+          ]
+        }
+      }
+    ],
+    "wmoRegion": "africa",
+    "environment": [
+      {
+        "climateZone": "steppeHotArid",
+        "time": {
+          "interval": [
+            "2026-05-01",
+            ".."
+          ]
+        },
+        "surfaceCover": {
+          "value": "mosaicVegetation",
+          "scheme": "globCover2009"
+        },
+        "topographyBathymetry": {
+          "localTopography": "unknown",
+          "relativeElevation": "middle",
+          "topographicContext": "valleys",
+          "altitudeOrDepth": "lowAltitude"
+        }
+      }
+    ],
+    "observationSeries": [
+      {
+        "id": "observationSeries:210",
+        "title": "domain: atmosphere; geometry: point; variable: 210",
+        "observedProperty": "210",
+        "observedDomain": {
+          "domain": "atmosphere"
+        },
+        "observedGeometry": "point",
+        "programAffiliations": [
+          "GBON",
+          "GOSGeneral"
+        ],
+        "observingConfigurations": [
+          {
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            },
+            "observingMethod": {
+              "nilReason": "unknown"
+            },
+            "operatingStatus": "operational",
+            "sourceOfObservation": "automaticReading",
+            "exposure": {
+              "nilReason": "unknown"
+            },
+            "referenceSurface": "seaSurface",
+            "verticalDistanceFromReferenceSurface": {
+              "value": 2.0,
+              "uom": "m"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                22.676972,
+                32.701834,
+                250
+              ]
+            }
+          }
+        ],
+        "observingProcedures": [
+          {
+            "observingSchedules": [
+              "schedule_c6cc25203e"
+            ],
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            }
+          }
+        ],
+        "reportingProcedures": [
+          {
+            "internationalExchange": false,
+            "dataPolicy": "WMOEssential",
+            "referenceTimeSource": [
+              "unknown"
+            ],
+            "reportingSchedules": [
+              "schedule_c6cc25203e"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "observationSeries:210",
+        "title": "domain: atmosphere; geometry: point; variable: 210",
+        "observedProperty": "210",
+        "observedDomain": {
+          "domain": "atmosphere"
+        },
+        "observedGeometry": "point",
+        "programAffiliations": [
+          "GBON",
+          "GOSGeneral"
+        ],
+        "observingConfigurations": [
+          {
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            },
+            "observingMethod": "212",
+            "sourceOfObservation": "automaticReading"
+          }
+        ],
+        "observingProcedures": [
+          {
+            "observingSchedules": [
+              "schedule_c6cc25203e"
+            ],
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            }
+          }
+        ],
+        "reportingProcedures": [
+          {
+            "internationalExchange": true,
+            "reportingSchedules": [
+              "schedule_c6cc25203e"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "observationSeries:216",
+        "title": "domain: atmosphere; geometry: point; variable: 216",
+        "observedProperty": "216",
+        "observedDomain": {
+          "domain": "atmosphere"
+        },
+        "observedGeometry": "point",
+        "programAffiliations": [
+          "GBON",
+          "GOSGeneral"
+        ],
+        "observingConfigurations": [
+          {
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            },
+            "observingMethod": {
+              "nilReason": "unknown"
+            },
+            "operatingStatus": "operational",
+            "sourceOfObservation": "automaticReading",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                22.403723,
+                22.676972,
+                250
+              ]
+            }
+          }
+        ],
+        "observingProcedures": [
+          {
+            "observingSchedules": [
+              "schedule_c6cc25203e"
+            ],
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            }
+          }
+        ],
+        "reportingProcedures": [
+          {
+            "internationalExchange": true,
+            "dataPolicy": "WMOEssential",
+            "timeStampMeaning": "unknown",
+            "referenceTimeSource": [
+              "unknown"
+            ],
+            "reportingSchedules": [
+              "schedule_c6cc25203e"
+            ]
+          },
+          {
+            "internationalExchange": true,
+            "dataPolicy": "WMOEssential",
+            "levelOfData": "unknown",
+            "uom": "hPa",
+            "reportingSchedules": [
+              "schedule_c6cc25203e"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "observationSeries:216",
+        "title": "domain: atmosphere; geometry: point; variable: 216",
+        "observedProperty": "216",
+        "observedDomain": {
+          "domain": "atmosphere"
+        },
+        "observedGeometry": "point",
+        "programAffiliations": [
+          "GBON",
+          "GOSGeneral"
+        ],
+        "observingConfigurations": [
+          {
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            },
+            "observingMethod": "111",
+            "sourceOfObservation": "automaticReading"
+          }
+        ],
+        "observingProcedures": [
+          {
+            "observingSchedules": [
+              "schedule_c6cc25203e"
+            ],
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            }
+          }
+        ],
+        "reportingProcedures": [
+          {
+            "internationalExchange": true,
+            "reportingSchedules": [
+              "schedule_c6cc25203e"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "observationSeries:224",
+        "title": "domain: atmosphere; geometry: point; variable: 224",
+        "observedProperty": "224",
+        "observedDomain": {
+          "domain": "atmosphere"
+        },
+        "observedGeometry": "point",
+        "programAffiliations": [
+          "GBON",
+          "GOSGeneral"
+        ],
+        "observingConfigurations": [
+          {
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            },
+            "observingMethod": {
+              "nilReason": "unknown"
+            },
+            "operatingStatus": "operational",
+            "sourceOfObservation": "automaticReading",
+            "referenceSurface": "seaSurface",
+            "verticalDistanceFromReferenceSurface": {
+              "value": 2.0,
+              "uom": "m"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                22.403723,
+                22.676972,
+                250
+              ]
+            }
+          }
+        ],
+        "observingProcedures": [
+          {
+            "observingSchedules": [
+              "schedule_c6cc25203e"
+            ],
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            }
+          }
+        ],
+        "reportingProcedures": [
+          {
+            "internationalExchange": true,
+            "dataPolicy": "WMOEssential",
+            "uom": "degC",
+            "reportingSchedules": [
+              "schedule_c6cc25203e"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "observationSeries:224",
+        "title": "domain: atmosphere; geometry: point; variable: 224",
+        "observedProperty": "224",
+        "observedDomain": {
+          "domain": "atmosphere"
+        },
+        "observedGeometry": "point",
+        "programAffiliations": [
+          "GBON",
+          "GOSGeneral"
+        ],
+        "observingConfigurations": [
+          {
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            },
+            "observingMethod": "188",
+            "sourceOfObservation": "automaticReading"
+          }
+        ],
+        "observingProcedures": [
+          {
+            "observingSchedules": [
+              "schedule_c6cc25203e"
+            ],
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            }
+          }
+        ],
+        "reportingProcedures": [
+          {
+            "internationalExchange": true,
+            "reportingSchedules": [
+              "schedule_c6cc25203e"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "observationSeries:12249",
+        "title": "domain: atmosphere; geometry: point; variable: 12249",
+        "observedProperty": "12249",
+        "observedDomain": {
+          "domain": "atmosphere"
+        },
+        "observedGeometry": "point",
+        "programAffiliations": [
+          "GBON",
+          "GOSGeneral"
+        ],
+        "observingConfigurations": [
+          {
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            },
+            "observingMethod": {
+              "nilReason": "unknown"
+            },
+            "operatingStatus": "operational",
+            "sourceOfObservation": "automaticReading",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                22.676972,
+                32.701834,
+                250
+              ]
+            }
+          }
+        ],
+        "observingProcedures": [
+          {
+            "observingSchedules": [
+              "schedule_c6cc25203e"
+            ],
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            }
+          }
+        ],
+        "reportingProcedures": [
+          {
+            "internationalExchange": true,
+            "dataPolicy": "WMOEssential",
+            "referenceTimeSource": [
+              "unknown"
+            ],
+            "reportingSchedules": [
+              "schedule_c6cc25203e"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "observationSeries:12249",
+        "title": "domain: atmosphere; geometry: point; variable: 12249",
+        "observedProperty": "12249",
+        "observedDomain": {
+          "domain": "atmosphere"
+        },
+        "observedGeometry": "point",
+        "programAffiliations": [
+          "GBON",
+          "GOSGeneral"
+        ],
+        "observingConfigurations": [
+          {
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            },
+            "observingMethod": "338",
+            "sourceOfObservation": "automaticReading"
+          }
+        ],
+        "observingProcedures": [
+          {
+            "observingSchedules": [
+              "schedule_c6cc25203e"
+            ],
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            }
+          }
+        ],
+        "reportingProcedures": [
+          {
+            "internationalExchange": true,
+            "reportingSchedules": [
+              "schedule_c6cc25203e"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "observationSeries:12005",
+        "title": "domain: atmosphere; geometry: point; variable: 12005",
+        "observedProperty": "12005",
+        "observedDomain": {
+          "domain": "atmosphere"
+        },
+        "observedGeometry": "point",
+        "programAffiliations": [
+          "GBON",
+          "GOSGeneral"
+        ],
+        "observingConfigurations": [
+          {
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            },
+            "observingMethod": {
+              "nilReason": "unknown"
+            },
+            "operatingStatus": "operational",
+            "sourceOfObservation": "automaticReading",
+            "exposure": {
+              "nilReason": "unknown"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                22.676972,
+                32.701834,
+                250
+              ]
+            }
+          }
+        ],
+        "observingProcedures": [
+          {
+            "observingSchedules": [
+              "schedule_c6cc25203e"
+            ],
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            },
+            "strategy": "unknown"
+          }
+        ],
+        "reportingProcedures": [
+          {
+            "internationalExchange": true,
+            "dataPolicy": "WMOEssential",
+            "timeStampMeaning": "unknown",
+            "uom": "unknown",
+            "referenceTimeSource": [
+              "unknown"
+            ],
+            "reportingSchedules": [
+              "schedule_c6cc25203e"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "observationSeries:12005",
+        "title": "domain: atmosphere; geometry: point; variable: 12005",
+        "observedProperty": "12005",
+        "observedDomain": {
+          "domain": "atmosphere"
+        },
+        "observedGeometry": "point",
+        "programAffiliations": [
+          "GBON",
+          "GOSGeneral"
+        ],
+        "observingConfigurations": [
+          {
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            },
+            "observingMethod": "176",
+            "operatingStatus": "operational",
+            "sourceOfObservation": "automaticReading",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                22.676972,
+                32.701834,
+                250
+              ]
+            }
+          }
+        ],
+        "observingProcedures": [
+          {
+            "observingSchedules": [
+              "schedule_c6cc25203e"
+            ],
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            }
+          }
+        ],
+        "reportingProcedures": [
+          {
+            "internationalExchange": true,
+            "reportingSchedules": [
+              "schedule_c6cc25203e"
+            ]
+          },
+          {
+            "internationalExchange": false,
+            "reportingSchedules": [
+              "schedule_c6cc25203e"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "observationSeries:12006",
+        "title": "domain: atmosphere; geometry: point; variable: 12006",
+        "observedProperty": "12006",
+        "observedDomain": {
+          "domain": "atmosphere"
+        },
+        "observedGeometry": "point",
+        "programAffiliations": [
+          "GBON",
+          "GOSGeneral"
+        ],
+        "observingConfigurations": [
+          {
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            },
+            "observingMethod": {
+              "nilReason": "unknown"
+            },
+            "operatingStatus": "operational",
+            "sourceOfObservation": "automaticReading",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                22.676972,
+                32.701834,
+                250
+              ]
+            }
+          }
+        ],
+        "observingProcedures": [
+          {
+            "observingSchedules": [
+              "schedule_c6cc25203e"
+            ],
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            }
+          }
+        ],
+        "reportingProcedures": [
+          {
+            "internationalExchange": true,
+            "dataPolicy": "WMOEssential",
+            "uom": "unknown",
+            "reportingSchedules": [
+              "schedule_c6cc25203e"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "observationSeries:12006",
+        "title": "domain: atmosphere; geometry: point; variable: 12006",
+        "observedProperty": "12006",
+        "observedDomain": {
+          "domain": "atmosphere"
+        },
+        "observedGeometry": "point",
+        "programAffiliations": [
+          "GBON",
+          "GOSGeneral"
+        ],
+        "observingConfigurations": [
+          {
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            },
+            "observingMethod": "176",
+            "sourceOfObservation": "automaticReading"
+          }
+        ],
+        "observingProcedures": [
+          {
+            "observingSchedules": [
+              "schedule_c6cc25203e"
+            ],
+            "time": {
+              "interval": [
+                "2026-05-01",
+                ".."
+              ]
+            }
+          }
+        ],
+        "reportingProcedures": [
+          {
+            "internationalExchange": true,
+            "reportingSchedules": [
+              "schedule_c6cc25203e"
+            ]
+          }
+        ]
+      }
+    ],
+    "schedules": [
+      {
+        "wmo.int:aggregationInterval": "PT1H",
+        "start": "0001-01-01T00:00:00",
+        "duration": "PT23H59M",
+        "@type": "Event",
+        "uid": "schedule_c6cc25203e"
+      }
+    ],
+    "keywords": [
+      "0-434-0-62061",
+      "AL-FATAYEH"
+    ],
+    "contactAssignments": [
+      {
+        "contact": "contact:faragelzait@yahoo.com",
+        "roles": [
+          "pointOfContact"
+        ]
+      }
+    ],
+    "contacts": [
+      {
+        "identifier": "contact:faragelzait@yahoo.com",
+        "name": "ZAYET,Faraj M,Mr",
+        "organization": "Libyan National Meteorological Centre",
+        "emails": [
+          {
+            "value": "faragelzait@yahoo.com"
+          }
+        ],
+        "phones": [
+          {
+            "value": "+218926241078"
+          },
+          {
+            "value": "+218677804713"
+          }
+        ],
+        "addresses": [
+          {
+            "city": "elmarj",
+            "postalCode": "P.O. Box 5069",
+            "country": "LBY"
+          }
+        ]
+      },
+      {
+        "identifier": "contact:oscar@wmo.int",
+        "organization": "World Meteorological Organization WMO and Federal Office for Meteorology and Climatology MeteoSwiss",
+        "emails": [
+          {
+            "value": "oscar@wmo.int"
+          },
+          {
+            "value": "https://oscar.wmo.int/surface/#/feedback"
+          }
+        ],
+        "links": [
+          {
+            "href": "https://oscar.wmo.int/surface",
+            "rel": "about",
+            "type": "text/html"
+          }
+        ]
+      }
+    ]
+  },
+  "time": {
+    "interval": [
+      "2026-05-01",
+      ".."
+    ],
+    "resolution": "P1D"
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "builtAt": "2026-08-28T13:34:52.622964+00:00",
+  "evaluationDate": "2026-08-28",
+  "inputDirectory": "data/wmdr2",
+  "candidateFullRecords": 19,
+  "catalogueRecords": 19,
+  "duplicates": {},
+  "skipped": [],
+  "records": [
+    {
+      "wsi": "0-156-10000-51056",
+      "sourceFile": "20201007_0-156-10000-51056.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 224",
+        "observedProperties: non-URI controlled value preserved as-is: 12249",
+        "observedProperties: non-URI controlled value preserved as-is: 10103",
+        "observedProperties: non-URI controlled value preserved as-is: 12005",
+        "observedProperties: non-URI controlled value preserved as-is: 12006",
+        "observedProperties: non-URI controlled value preserved as-is: 12010",
+        "observingMethods: non-URI controlled value preserved as-is: 183"
+      ]
+    },
+    {
+      "wsi": "0-20000-0-06494",
+      "sourceFile": "20200304_0-20000-0-06494.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 179",
+        "observedProperties: non-URI controlled value preserved as-is: 216",
+        "observedProperties: non-URI controlled value preserved as-is: 224",
+        "observedProperties: non-URI controlled value preserved as-is: 230",
+        "observedProperties: non-URI controlled value preserved as-is: 12249",
+        "observedProperties: non-URI controlled value preserved as-is: 265",
+        "observedProperties: non-URI controlled value preserved as-is: 266",
+        "observedProperties: non-URI controlled value preserved as-is: 270",
+        "observedProperties: non-URI controlled value preserved as-is: 531",
+        "observedProperties: non-URI controlled value preserved as-is: 550",
+        "observedProperties: non-URI controlled value preserved as-is: 596",
+        "observedProperties: non-URI controlled value preserved as-is: 12005",
+        "observedProperties: non-URI controlled value preserved as-is: 12006"
+      ]
+    },
+    {
+      "wsi": "0-20000-0-06650",
+      "sourceFile": "20250731_0-20000-0-06650.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 179",
+        "observedProperties: non-URI controlled value preserved as-is: 224"
+      ]
+    },
+    {
+      "wsi": "0-20000-0-06725",
+      "sourceFile": "Blatten_20250729_0-20000-0-06725.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 57",
+        "observedProperties: non-URI controlled value preserved as-is: 180",
+        "observedProperties: non-URI controlled value preserved as-is: 210",
+        "observedProperties: non-URI controlled value preserved as-is: 216",
+        "observedProperties: non-URI controlled value preserved as-is: 224",
+        "observedProperties: non-URI controlled value preserved as-is: 225",
+        "observedProperties: non-URI controlled value preserved as-is: 226",
+        "observedProperties: non-URI controlled value preserved as-is: 230",
+        "observedProperties: non-URI controlled value preserved as-is: 12249",
+        "observedProperties: non-URI controlled value preserved as-is: 265",
+        "observedProperties: non-URI controlled value preserved as-is: 266",
+        "observedProperties: non-URI controlled value preserved as-is: 270",
+        "observedProperties: non-URI controlled value preserved as-is: 531",
+        "observedProperties: non-URI controlled value preserved as-is: 573",
+        "observedProperties: non-URI controlled value preserved as-is: 627",
+        "observedProperties: non-URI controlled value preserved as-is: 629",
+        "observedProperties: non-URI controlled value preserved as-is: 12005",
+        "observedProperties: non-URI controlled value preserved as-is: 12006"
+      ]
+    },
+    {
+      "wsi": "0-20000-0-45004",
+      "sourceFile": "20251218_0-20000-0-45004.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 213",
+        "observedProperties: non-URI controlled value preserved as-is: 216",
+        "observedProperties: non-URI controlled value preserved as-is: 224",
+        "observedProperties: non-URI controlled value preserved as-is: 225",
+        "observedProperties: non-URI controlled value preserved as-is: 227",
+        "observedProperties: non-URI controlled value preserved as-is: 12249",
+        "observedProperties: non-URI controlled value preserved as-is: 256",
+        "observedProperties: non-URI controlled value preserved as-is: 270",
+        "observedProperties: non-URI controlled value preserved as-is: 310",
+        "observedProperties: non-URI controlled value preserved as-is: 510",
+        "observedProperties: non-URI controlled value preserved as-is: 596",
+        "observedProperties: non-URI controlled value preserved as-is: 12000",
+        "observedProperties: non-URI controlled value preserved as-is: 12005",
+        "observedProperties: non-URI controlled value preserved as-is: 12006",
+        "observingMethods: non-URI controlled value preserved as-is: 111",
+        "observingMethods: non-URI controlled value preserved as-is: 188",
+        "observingMethods: non-URI controlled value preserved as-is: 331",
+        "observingMethods: non-URI controlled value preserved as-is: 254",
+        "observingMethods: non-URI controlled value preserved as-is: 327",
+        "observingMethods: non-URI controlled value preserved as-is: 95"
+      ]
+    },
+    {
+      "wsi": "0-20008-0-ARO",
+      "sourceFile": "20260318_0-20008-0-ARO.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 263",
+        "observedProperties: non-URI controlled value preserved as-is: 264",
+        "observingMethods: non-URI controlled value preserved as-is: 106",
+        "observingMethods: non-URI controlled value preserved as-is: 78"
+      ]
+    },
+    {
+      "wsi": "0-20008-0-DAV",
+      "sourceFile": "20260318_0-20008-0-DAV.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 263",
+        "observedProperties: non-URI controlled value preserved as-is: 264",
+        "observedProperties: non-URI controlled value preserved as-is: 325",
+        "observedProperties: non-URI controlled value preserved as-is: 356",
+        "observedProperties: non-URI controlled value preserved as-is: 358",
+        "observedProperties: non-URI controlled value preserved as-is: 359",
+        "observedProperties: non-URI controlled value preserved as-is: 565",
+        "observedProperties: non-URI controlled value preserved as-is: 566",
+        "observedProperties: non-URI controlled value preserved as-is: 571",
+        "observedProperties: non-URI controlled value preserved as-is: 572",
+        "observedProperties: non-URI controlled value preserved as-is: 573",
+        "observingMethods: non-URI controlled value preserved as-is: 106",
+        "observingMethods: non-URI controlled value preserved as-is: 78",
+        "observingMethods: non-URI controlled value preserved as-is: 210",
+        "observingMethods: non-URI controlled value preserved as-is: 197",
+        "observingMethods: non-URI controlled value preserved as-is: 263",
+        "observingMethods: non-URI controlled value preserved as-is: 265"
+      ]
+    },
+    {
+      "wsi": "0-20008-0-MKN",
+      "sourceFile": "20251001_0-20008-0-MKN.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 192",
+        "observedProperties: non-URI controlled value preserved as-is: 194",
+        "observedProperties: non-URI controlled value preserved as-is: 195",
+        "observedProperties: non-URI controlled value preserved as-is: 196",
+        "observedProperties: non-URI controlled value preserved as-is: 201",
+        "observedProperties: non-URI controlled value preserved as-is: 203",
+        "observedProperties: non-URI controlled value preserved as-is: 205",
+        "observedProperties: non-URI controlled value preserved as-is: 216",
+        "observedProperties: non-URI controlled value preserved as-is: 224",
+        "observedProperties: non-URI controlled value preserved as-is: 248",
+        "observedProperties: non-URI controlled value preserved as-is: 12249",
+        "observedProperties: non-URI controlled value preserved as-is: 262",
+        "observedProperties: non-URI controlled value preserved as-is: 284",
+        "observedProperties: non-URI controlled value preserved as-is: 317",
+        "observedProperties: non-URI controlled value preserved as-is: 323",
+        "observedProperties: non-URI controlled value preserved as-is: 369",
+        "observedProperties: non-URI controlled value preserved as-is: 437",
+        "observedProperties: non-URI controlled value preserved as-is: 445",
+        "observedProperties: non-URI controlled value preserved as-is: 497",
+        "observedProperties: non-URI controlled value preserved as-is: 499",
+        "observedProperties: non-URI controlled value preserved as-is: 501",
+        "observedProperties: non-URI controlled value preserved as-is: 502",
+        "observedProperties: non-URI controlled value preserved as-is: 571",
+        "observedProperties: non-URI controlled value preserved as-is: 573",
+        "observedProperties: non-URI controlled value preserved as-is: 12005",
+        "observedProperties: non-URI controlled value preserved as-is: 12006",
+        "observingMethods: non-URI controlled value preserved as-is: 301",
+        "observingMethods: non-URI controlled value preserved as-is: 317",
+        "observingMethods: non-URI controlled value preserved as-is: 221",
+        "observingMethods: non-URI controlled value preserved as-is: 120",
+        "observingMethods: non-URI controlled value preserved as-is: 73",
+        "observingMethods: non-URI controlled value preserved as-is: 188",
+        "observingMethods: non-URI controlled value preserved as-is: 201",
+        "observingMethods: non-URI controlled value preserved as-is: 247",
+        "observingMethods: non-URI controlled value preserved as-is: 254",
+        "observingMethods: non-URI controlled value preserved as-is: 220",
+        "observingMethods: non-URI controlled value preserved as-is: 230",
+        "observingMethods: non-URI controlled value preserved as-is: 240",
+        "observingMethods: non-URI controlled value preserved as-is: 60",
+        "observingMethods: non-URI controlled value preserved as-is: 215"
+      ]
+    },
+    {
+      "wsi": "0-20008-0-NRB",
+      "sourceFile": "20250504_0-20008-0-NRB.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 263",
+        "observedProperties: non-URI controlled value preserved as-is: 264",
+        "observedProperties: non-URI controlled value preserved as-is: 325",
+        "observedProperties: non-URI controlled value preserved as-is: 369",
+        "observedProperties: non-URI controlled value preserved as-is: 573",
+        "observingMethods: non-URI controlled value preserved as-is: 106",
+        "observingMethods: non-URI controlled value preserved as-is: 107",
+        "observingMethods: non-URI controlled value preserved as-is: 244",
+        "observingMethods: non-URI controlled value preserved as-is: 240"
+      ]
+    },
+    {
+      "wsi": "0-20008-0-THE",
+      "sourceFile": "20241211_0-20008-0-THE.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 263",
+        "observedProperties: non-URI controlled value preserved as-is: 314",
+        "observedProperties: non-URI controlled value preserved as-is: 325",
+        "observedProperties: non-URI controlled value preserved as-is: 359",
+        "observedProperties: non-URI controlled value preserved as-is: 572",
+        "observedProperties: non-URI controlled value preserved as-is: 573",
+        "observedProperties: non-URI controlled value preserved as-is: 12150",
+        "observedProperties: non-URI controlled value preserved as-is: 12151",
+        "observedProperties: non-URI controlled value preserved as-is: 12153",
+        "observedProperties: non-URI controlled value preserved as-is: 12159",
+        "observingMethods: non-URI controlled value preserved as-is: 78",
+        "observingMethods: non-URI controlled value preserved as-is: 268",
+        "observingMethods: non-URI controlled value preserved as-is: 264",
+        "observingMethods: non-URI controlled value preserved as-is: 266"
+      ]
+    },
+    {
+      "wsi": "0-250-1005-SARg",
+      "sourceFile": "20230331_0-250-1005-SARg.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 12010"
+      ]
+    },
+    {
+      "wsi": "0-404-0-63707",
+      "sourceFile": "20220511_0-404-0-63707.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 12249",
+        "observedProperties: non-URI controlled value preserved as-is: 210",
+        "observedProperties: non-URI controlled value preserved as-is: 216",
+        "observedProperties: non-URI controlled value preserved as-is: 224",
+        "observedProperties: non-URI controlled value preserved as-is: 225",
+        "observedProperties: non-URI controlled value preserved as-is: 230",
+        "observedProperties: non-URI controlled value preserved as-is: 12005",
+        "observedProperties: non-URI controlled value preserved as-is: 12006",
+        "observingMethods: non-URI controlled value preserved as-is: inapplicable"
+      ]
+    },
+    {
+      "wsi": "0-404-800-4AA01",
+      "sourceFile": "20250314_0-404-800-4AA01.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 12252",
+        "observingMethods: non-URI controlled value preserved as-is: 356"
+      ]
+    },
+    {
+      "wsi": "0-410-0-22184",
+      "sourceFile": "20250529_0-410-0-22184.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 95",
+        "observedProperties: non-URI controlled value preserved as-is: 98",
+        "observedProperties: non-URI controlled value preserved as-is: 99",
+        "observedProperties: non-URI controlled value preserved as-is: 100",
+        "observedProperties: non-URI controlled value preserved as-is: 216",
+        "observedProperties: non-URI controlled value preserved as-is: 224",
+        "observedProperties: non-URI controlled value preserved as-is: 12249",
+        "observedProperties: non-URI controlled value preserved as-is: 12005",
+        "observedProperties: non-URI controlled value preserved as-is: 12006"
+      ]
+    },
+    {
+      "wsi": "0-434-0-62061",
+      "sourceFile": "20260511_0-434-0-62061.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 210",
+        "observedProperties: non-URI controlled value preserved as-is: 216",
+        "observedProperties: non-URI controlled value preserved as-is: 224",
+        "observedProperties: non-URI controlled value preserved as-is: 12249",
+        "observedProperties: non-URI controlled value preserved as-is: 12005",
+        "observedProperties: non-URI controlled value preserved as-is: 12006",
+        "observingMethods: non-URI controlled value preserved as-is: 212",
+        "observingMethods: non-URI controlled value preserved as-is: 111",
+        "observingMethods: non-URI controlled value preserved as-is: 188",
+        "observingMethods: non-URI controlled value preserved as-is: 338",
+        "observingMethods: non-URI controlled value preserved as-is: 176"
+      ]
+    },
+    {
+      "wsi": "0-578-0-92100",
+      "sourceFile": "20221124_0-578-0-92100.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 216",
+        "observedProperties: non-URI controlled value preserved as-is: 224",
+        "observedProperties: non-URI controlled value preserved as-is: 12249",
+        "observedProperties: non-URI controlled value preserved as-is: 12005",
+        "observingMethods: non-URI controlled value preserved as-is: 111",
+        "observingMethods: non-URI controlled value preserved as-is: 188",
+        "observingMethods: non-URI controlled value preserved as-is: 254",
+        "observingMethods: non-URI controlled value preserved as-is: 63"
+      ]
+    },
+    {
+      "wsi": "0-70-0-Lukavac",
+      "sourceFile": "20260604_0-70-0-Lukavac.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 166",
+        "observingMethods: non-URI controlled value preserved as-is: 356"
+      ]
+    },
+    {
+      "wsi": "0-756-1-387493",
+      "sourceFile": "20250728_0-756-1-387493.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 210",
+        "observedProperties: non-URI controlled value preserved as-is: 216",
+        "observedProperties: non-URI controlled value preserved as-is: 224",
+        "observedProperties: non-URI controlled value preserved as-is: 12249",
+        "observedProperties: non-URI controlled value preserved as-is: 389",
+        "observedProperties: non-URI controlled value preserved as-is: 566",
+        "observedProperties: non-URI controlled value preserved as-is: 567",
+        "observedProperties: non-URI controlled value preserved as-is: 573",
+        "observedProperties: non-URI controlled value preserved as-is: 575",
+        "observedProperties: non-URI controlled value preserved as-is: 629",
+        "observedProperties: non-URI controlled value preserved as-is: 12005",
+        "observedProperties: non-URI controlled value preserved as-is: 12006",
+        "observedProperties: non-URI controlled value preserved as-is: 12014",
+        "observedProperties: non-URI controlled value preserved as-is: 12015",
+        "observedProperties: non-URI controlled value preserved as-is: 12283",
+        "observingMethods: non-URI controlled value preserved as-is: 204",
+        "observingMethods: non-URI controlled value preserved as-is: inapplicable",
+        "observingMethods: non-URI controlled value preserved as-is: 188",
+        "observingMethods: non-URI controlled value preserved as-is: 250",
+        "observingMethods: non-URI controlled value preserved as-is: 265",
+        "observingMethods: non-URI controlled value preserved as-is: 266",
+        "observingMethods: non-URI controlled value preserved as-is: 260",
+        "observingMethods: non-URI controlled value preserved as-is: 63"
+      ]
+    },
+    {
+      "wsi": "0-840-11502-KominkoSlade",
+      "sourceFile": "20240806_0-840-11502-KominkoSlade.json",
+      "warnings": [
+        "observedProperties: non-URI controlled value preserved as-is: 216",
+        "observedProperties: non-URI controlled value preserved as-is: 224",
+        "observedProperties: non-URI controlled value preserved as-is: 12249",
+        "observedProperties: non-URI controlled value preserved as-is: 12005",
+        "observedProperties: non-URI controlled value preserved as-is: 12006",
+        "observingMethods: non-URI controlled value preserved as-is: 111",
+        "observingMethods: non-URI controlled value preserved as-is: 188",
+        "observingMethods: non-URI controlled value preserved as-is: 250",
+        "observingMethods: non-URI controlled value preserved as-is: 65"
+      ]
+    }
+  ]
+}
