@@ -1,33 +1,23 @@
-services:
   - type: web
-    runtime: static
-    name: wigos-portal-poc
-    rootDir: frontend
-    buildCommand: npm install && npm run build
-    staticPublishPath: dist
-    autoDeployTrigger: commit
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
-    envVars:
-      - key: NODE_VERSION
-        value: 22.23.2
-      - key: VITE_RECORDS_API_BASE
-        fromService:
-          type: web
-          name: wigos-portal-poc-catalogue
-          envVarKey: RENDER_EXTERNAL_URL
-
-  - type: web
-    runtime: python
     name: wigos-portal-poc-catalogue
+    runtime: python
     plan: free
     region: frankfurt
+
     buildCommand: bash scripts/render_build_catalogue.sh
-    startCommand: bash scripts/render_start_catalogue.sh
-    autoDeployTrigger: commit
+
+    startCommand: >-
+      gunicorn
+      --bind 0.0.0.0:$PORT
+      --workers 1
+      --threads 4
+      --timeout 120
+      --access-logfile -
+      --error-logfile -
+      pygeoapi.flask_app:APP
+
     healthCheckPath: /conformance
+
     envVars:
       - key: PYTHON_VERSION
         value: 3.14.3
