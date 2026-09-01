@@ -7,8 +7,10 @@ import GeoJSON from 'ol/format/GeoJSON';
 import Polygon from 'ol/geom/Polygon';
 import DragBox from 'ol/interaction/DragBox';
 import Graticule from 'ol/layer/Graticule';
+import TileLayer from 'ol/layer/Tile';
 import VectorLayer from 'ol/layer/Vector';
 import { transform, transformExtent } from 'ol/proj';
+import OSM from 'ol/source/OSM';
 import VectorSource from 'ol/source/Vector';
 import { Circle as CircleStyle, Fill, Stroke, Style } from 'ol/style';
 import type { WigosRecord } from '../api/records';
@@ -24,6 +26,13 @@ const basemapLayer = new VectorLayer({
   style: new Style({
     fill: new Fill({ color: 'rgba(239, 241, 236, 1)' }),
     stroke: new Stroke({ color: 'rgba(113, 126, 126, 0.72)', width: 0.7 }),
+  }),
+});
+
+const localBasemapLayer = new TileLayer({
+  visible: false,
+  source: new OSM({
+    crossOrigin: 'anonymous',
   }),
 });
 
@@ -61,7 +70,7 @@ function tail(value?: string) {
   return parts[parts.length - 1] || value;
 }
 
-function projectionFrame(code: PortalProjection) {
+function projectionFrame(code: Exclude<PortalProjection, 'EPSG:3857'>) {
   const geographicRing: number[][] = [];
 
   if (code === 'ESRI:54009') {
@@ -77,7 +86,7 @@ function projectionFrame(code: PortalProjection) {
   return new Feature(new Polygon([projected]));
 }
 
-function basemapFeaturesForProjection(data: GeoJsonObject, projection: PortalProjection) {
+function basemapFeaturesForProjection(data: GeoJsonObject, projection: Exclude<PortalProjection, 'EPSG:3857'>) {
   const format = new GeoJSON();
   const features = format.readFeatures(data, {
     dataProjection: 'EPSG:4326',
@@ -151,7 +160,7 @@ export function PortalMap({
 
     const map = new OlMap({
       target: target.current,
-      layers: [basemapLayer, graticuleLayer, frameLayer, stationLayer],
+      layers: [localBasemapLayer, basemapLayer, graticuleLayer, frameLayer, stationLayer],
       overlays: [overlay],
       view: new View({
         projection: 'ESRI:54009',
@@ -203,31 +212,52 @@ export function PortalMap({
     const map = mapRef.current;
     if (!map) return;
 
+    const previousView = map.getView();
+    const previousProjection = previousView.getProjection().getCode();
+    const previousCenter = previousView.getCenter();
+    let geographicCenter: number[] | null = null;
+    if (previousCenter) {
+      try {
+        geographicCenter = transform(previousCenter, previousProjection, 'EPSG:4326');
+      } catch {
+        geographicCenter = null;
+      }
+    }
+
     const d = defaultView(projection);
     const view = new View({
       projection,
-      center: d.center,
-      zoom: d.zoom,
+      center: geographicCenter ? transform(geographicCenter, 'EPSG:4326', projection) : d.center,
+      zoom: projection === 'EPSG:3857' ? Math.max(2, Math.min(previousView.getZoom() ?? 2, 19)) : d.zoom,
+      maxZoom: projection === 'EPSG:3857' ? 19 : 10,
     });
     map.setView(view);
 
+    const local = projection === 'EPSG:3857';
+    localBasemapLayer.setVisible(local);
+    basemapLayer.setVisible(!local);
+    graticuleLayer.setVisible(!local);
+    frameLayer.setVisible(!local);
+
     frameSource.clear();
-    const frame = projectionFrame(projection);
-    frameSource.addFeature(frame);
-    const extent = frame.getGeometry()?.getExtent();
-    const size = map.getSize();
-    if (extent && size) {
-      view.fit(extent, {
-        size,
-        padding: [34, 34, 34, 34],
-        duration: 0,
-      });
+    if (!local) {
+      const frame = projectionFrame(projection);
+      frameSource.addFeature(frame);
+      const extent = frame.getGeometry()?.getExtent();
+      const size = map.getSize();
+      if (extent && size) {
+        view.fit(extent, {
+          size,
+          padding: [34, 34, 34, 34],
+          duration: 0,
+        });
+      }
     }
   }, [projection]);
 
   useEffect(() => {
     basemapSource.clear();
-    if (!basemapData) return;
+    if (!basemapData || projection === 'EPSG:3857') return;
     basemapSource.addFeatures(basemapFeaturesForProjection(basemapData, projection));
   }, [basemapData, projection]);
 
@@ -278,6 +308,8 @@ export function PortalMap({
     };
   }, [boxMode, onBox, projection]);
 
+  const local = projection === 'EPSG:3857';
+
   return (
     <section className="map-wrap">
       <div className="map-toolbar">
@@ -286,6 +318,7 @@ export function PortalMap({
             key={code}
             className={projection === code ? 'active' : ''}
             onClick={() => setProjection(code)}
+            title={code === 'EPSG:3857' ? 'Street-level map (Web Mercator)' : undefined}
           >
             {projectionLabels[code]}
           </button>
@@ -301,9 +334,13 @@ export function PortalMap({
       <div ref={target} className="map" />
 
       <div className="map-attribution">
-        Made with Natural Earth
-        {basemapError && <span className="map-basemap-error"> · basemap unavailable</span>}
+        {local
+          ? <>© OpenStreetMap contributors</>
+          : <>Made with Natural Earth</>}
+        {!local && basemapError && <span className="map-basemap-error"> · basemap unavailable</span>}
       </div>
+
+      {local && <div className="map-mode-note">Local view · street-level zoom available</div>}
 
       <div
         ref={tooltip}

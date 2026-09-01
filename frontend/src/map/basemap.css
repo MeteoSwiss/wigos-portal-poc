@@ -1,4 +1,4 @@
-/* Projection-neutral vector basemap */
+/* Projection-neutral discovery basemap + local street-map mode */
 .map-wrap {
   background: #dbe8ed;
 }
@@ -10,10 +10,23 @@
   bottom: 7px;
   padding: 3px 6px;
   border-radius: 3px;
-  background: rgba(255, 255, 255, .78);
+  background: rgba(255, 255, 255, .82);
   color: #53656d;
   font-size: .68rem;
   line-height: 1.2;
+  pointer-events: none;
+}
+
+.map-mode-note {
+  position: absolute;
+  z-index: 5;
+  left: 10px;
+  bottom: 10px;
+  padding: 4px 7px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, .86);
+  color: #52636b;
+  font-size: .72rem;
   pointer-events: none;
 }
 
