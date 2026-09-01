@@ -136,7 +136,18 @@ export default function App() {
   return (
     <main className="app-shell">
       <header>
-        <div><strong>WIGOS Portal</strong><span className="poc">PoC</span></div>
+        <div className="brand">
+          <strong>WIGOS Portal</strong>
+          <span className="poc">PoC</span>
+          <a
+            href="https://github.com/MeteoSwiss/wigos-portal-poc#readme"
+            style={{ marginLeft: '12px', fontSize: '.88rem', color: '#1d6f8a' }}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Documentation
+          </a>
+        </div>
         <form onSubmit={e => { e.preventDefault(); void load(); }}>
           <input value={query} onChange={e => setQuery(e.target.value)} placeholder="WSI, facility, organization, observation …" />
           <button>Search</button>
