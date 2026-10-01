@@ -27,12 +27,12 @@ export function FacilitySummary({ record }: { record: WigosRecord | null }) {
         <dt>Territory</dt><dd>{tail(p.territory)}</dd>
         <dt>WMO Region</dt><dd>{tail(p.wmoRegion)}</dd>
         <dt>Facility type</dt><dd>{tail(p.facilityType)}</dd>
-        <dt>Observation series</dt><dd>{p.observationSeriesCount ?? '—'}</dd>
-        <dt>Current series</dt><dd>{p.currentObservationSeriesCount ?? '—'}</dd>
+        <dt>Observations</dt><dd>{p.observationCount ?? '—'}</dd>
+        <dt>Current observations</dt><dd>{p.currentObservationCount ?? '—'}</dd>
       </dl>
       <h3>Current programmes</h3>
       <div>{list(p.currentProgrammes)}</div>
-      <h3>Current observations</h3>
+      <h3>Current observed properties</h3>
       <div>{list(p.currentObservedProperties)}</div>
       <h3>Current observing methods</h3>
       <div>{list(p.currentObservingMethods)}</div>
@@ -41,7 +41,7 @@ export function FacilitySummary({ record }: { record: WigosRecord | null }) {
       <h3>Organizations</h3>
       <div>{p.organizations?.join(', ') || '—'}</div>
       {p.contacts && p.contacts.length > 0 && <>
-        <h3>Contacts</h3>
+        <h3>Facility contacts</h3>
         <ul className="contact-list">
           {p.contacts.map((contact, index) => <li key={`${contact.name || contact.organization || 'contact'}-${index}`}>
             <strong>{contact.name || (typeof contact.organization === 'string' ? contact.organization : 'Contact')}</strong>

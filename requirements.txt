@@ -2,3 +2,4 @@ pygeoapi==0.24.0
 tinydb>=4.8,<5
 gunicorn>=23,<24
 flask-cors
+pytest>=9,<10

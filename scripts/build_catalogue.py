@@ -7,7 +7,14 @@ import json
 from pathlib import Path
 import sys
 
-from wmdr2_projection import SourceRecord, choose_latest_by_wsi, extract_wsi, is_full_facility_record, project_record
+from wmdr2_projection import (
+    SourceRecord,
+    WMDR2_MODEL_VERSION,
+    choose_latest_by_wsi,
+    extract_wsi,
+    is_full_facility_record,
+    project_record,
+)
 
 
 def source_urls(input_dir: Path) -> dict[str, str]:
@@ -38,11 +45,11 @@ def load_sources(input_dir: Path) -> tuple[list[SourceRecord], list[dict]]:
             skipped.append({"file": path.name, "reason": f"invalid JSON: {exc}"})
             continue
         if not is_full_facility_record(document):
-            skipped.append({"file": path.name, "reason": "not a complete WMDR2 facility Feature"})
+            skipped.append({"file": path.name, "reason": "not a complete WMDR2 v0.4.0 facility Feature"})
             continue
         wsi = extract_wsi(document)
         if not wsi:
-            skipped.append({"file": path.name, "reason": "no WSI found"})
+            skipped.append({"file": path.name, "reason": "no WSI found in root Feature id"})
             continue
         sources.append(SourceRecord(path=path, document=document, wsi=wsi, source_url=urls.get(path.name)))
     return sources, skipped
@@ -55,7 +62,9 @@ def write_tinydb(records: list[dict], path: Path) -> None:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Build the WIGOS OGC API - Records discovery catalogue from WMDR2 examples.")
+    parser = argparse.ArgumentParser(
+        description=f"Build the WIGOS OGC API - Records discovery catalogue from WMDR2 v{WMDR2_MODEL_VERSION} examples."
+    )
     parser.add_argument("--input", type=Path, default=Path("data/wmdr2"))
     parser.add_argument("--records-dir", type=Path, default=Path("data/records"))
     parser.add_argument("--tinydb", type=Path, default=Path("data/wigos-facilities.tinydb"))
@@ -90,6 +99,7 @@ def main() -> int:
     report = {
         "builtAt": datetime.now(timezone.utc).isoformat(),
         "evaluationDate": args.evaluation_date.isoformat(),
+        "wmdr2ModelVersion": WMDR2_MODEL_VERSION,
         "inputDirectory": str(args.input),
         "candidateFullRecords": len(sources),
         "catalogueRecords": len(records),
@@ -97,14 +107,19 @@ def main() -> int:
         "skipped": skipped,
         "records": record_reports,
     }
-    (args.records_dir / "build-report.json").write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    (args.records_dir / "build-report.json").write_text(
+        json.dumps(report, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
 
-    print(f"Built {len(records)} WIGOS facility record(s) into {args.tinydb}")
+    print(f"Built {len(records)} WMDR2 v{WMDR2_MODEL_VERSION} WIGOS facility record(s) into {args.tinydb}")
     if duplicates:
         print(f"Resolved duplicate source records for {len(duplicates)} WSI(s); see data/records/build-report.json")
     warning_count = sum(len(item["warnings"]) for item in record_reports)
     if warning_count:
-        print(f"Preserved {warning_count} legacy/non-URI controlled value(s); see build report")
+        print(
+            f"Preserved {warning_count} controlled value(s) without canonical URI; see build report"
+        )
     if not records:
         print("WARNING: catalogue is empty", file=sys.stderr)
         return 1

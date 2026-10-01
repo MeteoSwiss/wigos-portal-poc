@@ -396,10 +396,10 @@ export function PortalMap({
 
         const seriesLine = document.createElement('span');
         const seriesCount =
-          record.properties.currentObservationSeriesCount ??
-          record.properties.observationSeriesCount ??
+          record.properties.currentObservationCount ??
+          record.properties.observationCount ??
           '—';
-        seriesLine.textContent = `${seriesCount} current observation series`;
+        seriesLine.textContent = `${seriesCount} current observations`;
         tooltipElement.appendChild(seriesLine);
 
         tooltipElement.classList.remove('hidden');

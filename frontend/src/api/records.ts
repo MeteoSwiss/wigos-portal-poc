@@ -7,6 +7,12 @@ export interface Contact {
   [key: string]: unknown;
 }
 
+export interface ExternalId {
+  scheme?: string;
+  value?: string;
+  [key: string]: unknown;
+}
+
 export interface WigosRecordProperties {
   type?: string;
   title?: string;
@@ -14,6 +20,8 @@ export interface WigosRecordProperties {
   territory?: string;
   wmoRegion?: string;
   facilityType?: string;
+  externalIds?: ExternalId[];
+  additionalIds?: Array<string | Record<string, unknown>>;
   programmes?: Array<string | number>;
   currentProgrammes?: Array<string | number>;
   observedProperties?: Array<string | number>;
@@ -28,8 +36,9 @@ export interface WigosRecordProperties {
   currentObservationOperatingStatuses?: Array<string | number>;
   organizations?: string[];
   contacts?: Contact[];
-  observationSeriesCount?: number;
-  currentObservationSeriesCount?: number;
+  observationCount?: number;
+  currentObservationCount?: number;
+  mobile?: boolean;
   sourceFile?: string;
   wmdr2Url?: string;
   [key: string]: unknown;

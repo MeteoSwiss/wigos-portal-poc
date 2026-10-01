@@ -1,120 +1,127 @@
-# WIGOS profile of OGC API - Records Part 1 — PoC v0.1
+# WIGOS profile of OGC API - Records Part 1 — PoC v0.2
 
 ## 1. Purpose
 
-This profile defines the discovery projection used by the WIGOS Portal PoC. One catalogue record describes one WIGOS facility. The catalogue record is derived and rebuildable; the WMDR2 JSON record remains authoritative.
+This profile defines the discovery projection used by the WIGOS Portal PoC against **wmdr2-devt v0.4.0**. One catalogue record describes one WIGOS Facility. The catalogue record is derived/rebuildable; canonical WMDR2 JSON remains authoritative.
 
-## 2. Agreed semantics
+## 2. Core semantics
 
 1. One OGC Record represents one WIGOS Facility.
 2. WMDR2 JSON is canonical; the catalogue record is a discovery projection.
-3. The OGC Record `id` is the WIGOS Station Identifier (WSI).
-4. OGC Record `time` represents the facility lifetime only.
-5. Controlled concepts use canonical resolvable URIs as machine values. Human-readable labels are presentation metadata, not identifiers.
-6. `current` means that the relevant `ObservingConfiguration.time` contains the evaluation date. Operational status remains an independent concept.
-7. Fixed-point facilities are fully supported in the first PoC. Moving facilities use a current/latest point where available; trajectory visualization is deferred.
+3. Record `id` is the root WMDR2 WSI.
+4. Record `time` is Facility lifetime only.
+5. Controlled discovery values use Concept `url` as the machine value where available; compact Concept `id` is a fallback, not a replacement URI.
+6. An Observation is current when at least one `Configuration.time` contains the evaluation date. Operating status remains independent.
+7. Programme affiliation dates, when supplied, constrain `currentProgrammes` separately from Configuration validity.
+8. Fixed facilities are fully supported. Moving facilities use the root current/latest point for the map while `temporalGeometry` remains canonical history.
 
-## 3. OGC Record core properties
-
-The following use standard OGC API - Records properties and MUST NOT be duplicated as WIGOS-specific extensions unless a query optimization requires it.
+## 3. Standard/core properties
 
 | OGC Record member | WMDR2 source / meaning |
 |---|---|
-| `id` | WSI |
-| `geometry` | current facility geometry / current position |
-| `time` | facility lifetime |
+| `id` | root WSI |
+| `geometry` | current Facility geometry/current position |
+| `time` | Facility lifetime |
 | `properties.type` | `wigosFacility` |
-| `properties.title` | facility title |
-| `properties.description` | facility description, when present |
-| `properties.externalIds` | WSI plus suitable additional facility identifiers |
-| `properties.themes` | controlled WIGOS concepts where useful for generic catalogue clients |
-| `properties.contacts` | WMDR2 contacts applicable to the facility/resource, including contextual roles |
-| `links` | canonical WMDR2 JSON; Portal facility report; optional Node link |
+| `properties.title` | Facility title |
+| `properties.description` | Facility description when present |
+| `properties.externalIds` | generic OGC external identifiers, preserved unchanged |
+| `properties.additionalIds` | additional WSI values when present |
+| `properties.contacts` | Facility OGC Contacts with contextual roles |
+| `links` | canonical WMDR2 JSON and other record links |
 
-### Contacts
-
-OGC API - Records already defines a standard `contacts` property. The PoC maps WMDR2 contact information to it rather than inventing a WIGOS contact extension.
-
-Where available, retain:
-
-- contact identifier;
-- person name;
-- organization;
-- position;
-- email(s);
-- phone(s);
-- address(es);
-- link(s);
-- contextual role(s).
-
-Facility-level and ObservationSeries-level assignments remain distinguishable in the full WMDR2 report. The discovery record may contain the contacts relevant for general discovery/reporting; it must not destroy contextual role information during projection.
+The projector does **not** inject the WSI into generic `externalIds`; primary identity already resides in Record `id`.
 
 ## 4. WIGOS discovery/query properties
 
-The following extension properties are intentionally denormalized for discovery. Arrays contain unique values. Controlled values are canonical URIs.
+Arrays contain unique values. Controlled values are canonical URIs when Concept `url` is available.
 
 | Property | Type | Meaning |
 |---|---|---|
-| `facilityType` | URI | Facility/station/platform type |
-| `territory` | URI/string | Current/latest territory assignment |
+| `facilityType` | URI/string | Facility type |
+| `territory` | URI/string | Current/latest `territories[]` assignment |
 | `wmoRegion` | URI/string | WMO Region |
-| `programmes` | URI[] | All programme/network affiliations represented in the record |
-| `currentProgrammes` | URI[] | Programme affiliations current at evaluation date, where derivable |
-| `observedProperties` | URI[] | All observed variables represented by ObservationSeries |
-| `currentObservedProperties` | URI[] | Observed variables with at least one current observing configuration |
-| `observedGeometries` | URI[] | Observed geometries |
-| `observingMethods` | URI[] | All observing methods represented in configurations/procedures |
-| `currentObservingMethods` | URI[] | Methods used by at least one current observing configuration |
-| `instrumentManufacturers` | string[] | All manufacturers represented in referenced instruments |
-| `currentInstrumentManufacturers` | string[] | Manufacturers of currently configured instruments |
-| `instrumentModels` | string[] | All instrument models represented in the facility record |
-| `currentInstrumentModels` | string[] | Models referenced by current observing configurations |
-| `currentObservationOperatingStatuses` | URI[] | Explicit operating-status values on current configurations; absence is not fabricated |
-| `organizations` | string[] | Unique organizations represented by projected contacts; convenience query/facet field |
-| `observationSeriesCount` | integer | Number of ObservationSeries in the facility record |
-| `currentObservationSeriesCount` | integer | Number with at least one current observing configuration |
-| `mobile` | boolean | True when facility geometry represents a moving platform/facility |
+| `programmes` | URI/string[] | All Observation programme affiliations |
+| `currentProgrammes` | URI/string[] | Affiliations applicable to current Observations and current by `dates` when dates exist |
+| `observedProperties` | URI/string[] | All Observation `observedProperty` values |
+| `currentObservedProperties` | URI/string[] | Values with at least one current Configuration |
+| `observedGeometries` | URI/string[] | Observation geometries |
+| `observingMethods` | URI/string[] | Methods from Configurations, procedures and referenced Instruments |
+| `currentObservingMethods` | URI/string[] | Methods associated with current Configurations |
+| `instrumentManufacturers` | string[] | Manufacturers of referenced Instruments |
+| `currentInstrumentManufacturers` | string[] | Manufacturers referenced by current Configurations |
+| `instrumentModels` | string[] | Referenced Instrument models |
+| `currentInstrumentModels` | string[] | Instrument models referenced by current Configurations |
+| `currentObservationOperatingStatuses` | URI/string[] | Explicit `operatingStatus` values on current Configurations |
+| `organizations` | string[] | Unique organizations from Facility/Observation/Configuration contacts |
+| `observationCount` | integer | Number of WMDR2 Observations |
+| `currentObservationCount` | integer | Number with at least one current Configuration |
+| `mobile` | boolean | Derived from Facility type and/or root `temporalGeometry.type=MovingPoint` |
 
-The `current*` fields are deliberate index duplication. They avoid forcing clients or catalogue engines to reproduce WMDR2 temporal business logic while filtering.
+The `current*` fields are deliberate discovery-index duplication; they do not replace canonical Configuration history.
 
-## 5. Controlled concepts and labels
+## 5. Controlled concepts
 
-The authoritative value stored in queryable fields is the canonical URI, for example:
+v0.4.0 uses objects such as:
 
 ```json
 {
-  "observedProperties": [
-    "https://codes.wmo.int/wmdr/ObservedVariable/..."
-  ]
+  "id": "12006",
+  "url": "http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/12006"
 }
 ```
 
-Labels are resolved for presentation and may be cached by the Portal. The URI, not a translated label or local notation, remains the query value.
+The flattened catalogue value is the `url` when present. The Portal may display the compact last path component. Identifier-only Concepts remain valid WMDR2; when one appears in a known controlled discovery field the compact value is retained and a build warning is recorded rather than fabricating a URI.
 
-## 6. Current versus operational
+## 6. Programme and current-observation logic
 
-`current` is temporal validity:
-
-```text
-ObservingConfiguration.time contains evaluation date
-```
-
-Operational status is separate:
+For each Observation:
 
 ```text
-ObservingConfiguration.operatingStatus
+current Observation
+    = any Configuration.time contains evaluation date
 ```
 
-If `operatingStatus` is absent, the catalogue projection MUST NOT infer `operational`.
+For each ProgrammeAffiliation on such an Observation:
 
-## 7. Queryables required by the Portal
+```text
+current programme
+    = dates absent OR dates contain evaluation date
+```
+
+`reportingStatus` and `operatingStatus` remain explicit independent assertions and are not inferred.
+
+## 7. Territory selection
+
+Canonical WMDR2 uses `properties.territories[]`. For the singular discovery facet:
+
+1. prefer an occurrence whose `dates` contains the evaluation date (or has no dates);
+2. otherwise use the latest available occurrence.
+
+The canonical list remains available in WMDR2 and is not replaced by this flattened property.
+
+## 8. Instruments and methods
+
+`Configuration.instrument` is a record-local ID reference to `properties.instruments[].id` in wmdr2-devt v0.4.0. The projector resolves that reference to derive manufacturer/model and instrument-level `observingMethods[]`.
+
+Instrument-level methods are useful for discovery when a Configuration `observingMethod` is `null` or absent.
+
+## 9. Contacts and organizations
+
+Facility contacts are retained in standard `properties.contacts`.
+
+The `organizations` facet may include organizations found in Facility, Observation and Configuration contact occurrences. It is a discovery convenience only; contextual roles remain authoritative in the original WMDR2 occurrences.
+
+## 10. Queryables required by the Portal
 
 Minimum PoC queryables:
 
-- `id` / `externalIds`
+- `id`
+- `externalIds`
+- `additionalIds`
 - `type`
 - `bbox`
-- `datetime` (facility lifetime)
+- `datetime`
 - `q`
 - `facilityType`
 - `territory`
@@ -134,27 +141,26 @@ Minimum PoC queryables:
 - `organizations`
 - `mobile`
 
-CQL2 is used where equality predicates are insufficient, especially for combinations of array membership and explicit spatial selection geometry.
+CQL2 can be used later for server-side combinations, especially array membership and spatial predicates.
 
-## 8. Facility report
+## 11. Compact Facility report
 
-The compact report is a Portal view, not a second metadata model. It combines the discovery record with canonical WMDR2 content as needed.
+The compact report is a Portal view, not a second metadata model. Initial sections include:
 
-Initial sections:
+1. Facility identity, location and lifetime;
+2. total/current Observation counts;
+3. current programmes and observed properties;
+4. current methods and instruments;
+5. organizations and Facility contacts;
+6. links to the OGC catalogue record and canonical WMDR2 JSON.
 
-1. Facility identity, location, lifetime and high-level status.
-2. Programmes.
-3. ObservationSeries summary table: observed property, current status, method, instrument.
-4. Instruments in use.
-5. Observing methods in use.
-6. Contacts and organizations.
-7. Collapsible location/history, environment and additional metadata.
-8. Links to OGC catalogue record and canonical WMDR2 JSON; optional "Open in WIGOS Node" link.
+Richer Observation/configuration/history reporting remains a Portal presentation task over canonical WMDR2.
 
-## 9. Deferred decisions
+## 12. Deferred decisions
 
-- independent ObservationSeries catalogue records;
-- trajectory/track catalogue geometry and visualization for moving facilities;
-- exact derived ObservationSeries temporal coverage property;
-- production search backend (Elasticsearch/OpenSearch or catalogue implementation selected by the future global service);
-- catalogue editing/transactions.
+- independent Observation catalogue records;
+- trajectory visualization for moving facilities;
+- richer derived Observation temporal coverage;
+- production catalogue/search backend;
+- catalogue editing/transactions;
+- catalogue-side facet aggregation/CQL2 implementation.
