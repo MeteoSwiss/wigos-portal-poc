@@ -41,7 +41,11 @@ def fixture(name: str = "20250504_0-20008-0-NRB.json") -> SourceRecord:
                     "organization": "Kenyan Meteorological Department",
                     "identifier": "contact:kmd",
                     "roles": ["supervisor"],
-                }
+                },
+                {
+                    "organization": "WMO Test Centre",
+                    "identifier": "contact:test-centre",
+                },
             ],
             "facilityType": {
                 "id": "landFixed",
@@ -109,8 +113,7 @@ def fixture(name: str = "20250504_0-20008-0-NRB.json") -> SourceRecord:
                             "instrument": "palas-fidas-200",
                             "contacts": [
                                 {
-                                    "organization": "WMO Test Centre",
-                                    "identifier": "contact:test-centre",
+                                    "ref": "contact:test-centre",
                                     "roles": ["pointOfContact"],
                                 }
                             ],
@@ -240,7 +243,7 @@ def test_organizations_include_nested_contexts_without_flattening_contacts() -> 
         "Kenyan Meteorological Department",
         "WMO Test Centre",
     ]
-    assert len(record["properties"]["contacts"]) == 1
+    assert len(record["properties"]["contacts"]) == 2
 
 
 def test_mobile_uses_temporal_geometry_or_facility_type() -> None:
@@ -269,3 +272,11 @@ def test_duplicate_resolution_uses_updated_date() -> None:
     selected, duplicates = choose_latest_by_wsi([older, newer])
     assert selected[0].path.name == newer.path.name
     assert "0-20008-0-NRB" in duplicates
+
+
+def test_nested_contact_ref_resolves_for_organization_projection() -> None:
+    record, _ = project_record(fixture(), date(2026, 9, 30))
+    assert record["properties"]["organizations"] == [
+        "Kenyan Meteorological Department",
+        "WMO Test Centre",
+    ]

@@ -53,7 +53,7 @@ Arrays contain unique values. Controlled values are canonical URIs when Concept 
 | `instrumentModels` | string[] | Referenced Instrument models |
 | `currentInstrumentModels` | string[] | Instrument models referenced by current Configurations |
 | `currentObservationOperatingStatuses` | URI/string[] | Explicit `operatingStatus` values on current Configurations |
-| `organizations` | string[] | Unique organizations from Facility/Observation/Configuration contacts |
+| `organizations` | string[] | Unique organizations from Facility contacts and resolved nested Contact references |
 | `observationCount` | integer | Number of WMDR2 Observations |
 | `currentObservationCount` | integer | Number with at least one current Configuration |
 | `mobile` | boolean | Derived from Facility type and/or root `temporalGeometry.type=MovingPoint` |
@@ -108,9 +108,7 @@ Instrument-level methods are useful for discovery when a Configuration `observin
 
 ## 9. Contacts and organizations
 
-Facility contacts are retained in standard `properties.contacts`.
-
-The `organizations` facet may include organizations found in Facility, Observation and Configuration contact occurrences. It is a discovery convenience only; contextual roles remain authoritative in the original WMDR2 occurrences.
+Facility `properties.contacts[]` retains full OGC API Records Contact objects. Nested WMDR entities use `contacts[]` entries of the form `{"ref": "<Contact.identifier>", "roles": [...]}`. The catalogue projector resolves those references back to Contact occurrences when deriving `organizations`; contextual roles remain authoritative in the canonical WMDR2 source.
 
 ## 10. Queryables required by the Portal
 

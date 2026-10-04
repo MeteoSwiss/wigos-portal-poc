@@ -230,15 +230,55 @@ def _territory(document: dict[str, Any], evaluation_date: date) -> Any:
 
 
 def _contacts(document: dict[str, Any]) -> list[dict[str, Any]]:
+    """Return full Facility/record Contact objects."""
     return [deepcopy(item) for item in listify(_container(document).get("contacts")) if isinstance(item, dict)]
+
+
+def _contact_index(document: dict[str, Any]) -> dict[str, dict[str, Any]]:
+    return {
+        str(contact["identifier"]): contact
+        for contact in _contacts(document)
+        if contact.get("identifier") not in (None, "")
+    }
+
+
+def _resolved_contact_refs(
+    container: dict[str, Any],
+    index: dict[str, dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Resolve nested {ref, roles} contacts to OGC Contact occurrences."""
+    result: list[dict[str, Any]] = []
+    for item in listify(container.get("contacts")):
+        if not isinstance(item, dict):
+            continue
+        ref = item.get("ref")
+        if ref not in (None, ""):
+            base = index.get(str(ref))
+            if base is None:
+                continue
+            occurrence = deepcopy(base)
+            roles = item.get("roles")
+            if isinstance(roles, list) and roles:
+                occurrence["roles"] = deepcopy(roles)
+            else:
+                occurrence.pop("roles", None)
+            result.append(occurrence)
+        else:
+            # Backward-compatible support for older embedded-contact examples.
+            result.append(deepcopy(item))
+    return result
 
 
 def _all_contact_occurrences(document: dict[str, Any]) -> list[dict[str, Any]]:
     result = _contacts(document)
+    index = _contact_index(document)
     for observation in _observations(document):
-        result.extend(deepcopy(item) for item in listify(observation.get("contacts")) if isinstance(item, dict))
+        result.extend(_resolved_contact_refs(observation, index))
         for configuration in _configurations(observation):
-            result.extend(deepcopy(item) for item in listify(configuration.get("contacts")) if isinstance(item, dict))
+            result.extend(_resolved_contact_refs(configuration, index))
+        for procedure in listify(observation.get("reportingProcedures")):
+            if isinstance(procedure, dict):
+                result.extend(_resolved_contact_refs(procedure, index))
     return result
 
 
